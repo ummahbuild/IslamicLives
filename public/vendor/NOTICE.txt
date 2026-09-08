@@ -1,0 +1,12 @@
+Three.js r180 (0.180.0)
+Copyright 2010-2025 Three.js Authors. MIT license: /vendor/three/LICENSE
+Unmodified browser modules downloaded from the official mrdoob/three.js repository,
+commit 0af9729d0c143a86a1d725d6e2c3ad83301f3f34. No package installation or lifecycle scripts.
+
+Natural Earth 1:110m land polygons
+Public domain: https://www.naturalearthdata.com/about/terms-of-use/
+Official natural-earth-vector repository snapshot ca96624a56bd078437bca8184e78163e5039ad19.
+These are modern coastlines for geographic orientation, not historical borders.
+
+Exact source URLs, SHA-256 digests and sizes: /vendor/manifest.json
+Atlas summaries are original paraphrases; source publications remain at their publishers.

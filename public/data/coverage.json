@@ -1,0 +1,26 @@
+[
+  {
+    "collection": "Traditionally listed Qur’anic prophets",
+    "status": "25 of 25 entries present; short sourced accounts, not exhaustive verse indexing"
+  },
+  {
+    "collection": "Qur’anic name-reference index",
+    "status": "38 people; 649 source-tagged word positions. Source concept queries reconciled; pronouns, alternate names and source omissions remain outside this count."
+  },
+  {
+    "collection": "Other people in the Qur’an",
+    "status": "In progress; named and unnamed individuals require a complete verse audit"
+  },
+  {
+    "collection": "Sahabah and hadith narrators",
+    "status": "Partial; collection and edition boundaries awaiting definition"
+  },
+  {
+    "collection": "Historical works after 632",
+    "status": "Partial; a bounded bibliography and person index are required"
+  },
+  {
+    "collection": "Spread of Islam through 2026",
+    "status": "16 interactive atlas chapters from scriptural beginnings to 2026; six sourced global population snapshots and six regional locators for 2010/2020. Selected historical connections, not exhaustive geographic coverage."
+  }
+]

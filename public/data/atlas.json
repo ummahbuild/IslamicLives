@@ -1,0 +1,703 @@
+{
+  "reviewed": "2026-09-08",
+  "sources": {
+    "quran": {
+      "title": "Qur’an 3:67 — Ibrahim and submission to Allah",
+      "url": "https://quran.com/3/67",
+      "kind": "Scripture"
+    },
+    "birth": {
+      "title": "The Met — The Birth of Islam",
+      "url": "https://www.metmuseum.org/essays/the-birth-of-islam",
+      "kind": "Historical scholarship"
+    },
+    "umayyad": {
+      "title": "The Met — The Umayyad period, 661–750",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "kind": "Historical scholarship"
+    },
+    "abbasid": {
+      "title": "The Met — The Abbasid period, 750–1258",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258",
+      "kind": "Historical scholarship"
+    },
+    "silk": {
+      "title": "UNESCO — About the Silk Roads",
+      "url": "https://www.unesco.org/en/silk-roads/about-silk-roads",
+      "kind": "Historical scholarship"
+    },
+    "africa": {
+      "title": "Stanford SPICE — The spread of Islam in West Africa",
+      "url": "https://spice.fsi.stanford.edu/docs/the_spread_of_islam_in_west_africa_containment_mixing_and_reform_from_the_eighth_to_the_twentieth_century",
+      "kind": "Historical scholarship"
+    },
+    "ottoman": {
+      "title": "The Met — The Ottomans before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+      "kind": "Historical scholarship"
+    },
+    "safavid": {
+      "title": "The Met — The Safavids before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600",
+      "kind": "Historical scholarship"
+    },
+    "mughal": {
+      "title": "The Met — The Mughals before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600",
+      "kind": "Historical scholarship"
+    },
+    "america": {
+      "title": "Smithsonian NMAAHC — African Muslims in early America",
+      "url": "https://nmaahc.si.edu/explore/stories/african-muslims-early-america",
+      "kind": "Historical scholarship"
+    },
+    "pew": {
+      "title": "Pew Research Center — Muslim population change, 2010–2020 (2025)",
+      "url": "https://www.pewresearch.org/religion/2025/06/09/muslim-population-change/",
+      "kind": "Demographic estimates"
+    },
+    "regions": {
+      "title": "Pew — Appendix B, page 1: regional population and Muslim shares (2025)",
+      "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf#page=1",
+      "kind": "Demographic estimates"
+    },
+    "drivers": {
+      "title": "Pew — Factors driving religious change, 2010–2020",
+      "url": "https://www.pewresearch.org/religion/2025/06/09/factors-driving-religious-change-2010-2020/",
+      "kind": "Demographic research"
+    },
+    "wcd": {
+      "title": "World Christian Database — Status of Global Christianity 2026, row 14: Muslims",
+      "url": "https://www.worldchristiandatabase.org/static/downloads/Status-of-Global-Christianity-2026.2b54be19fc0c.pdf",
+      "kind": "Historical and current demographic estimates"
+    }
+  },
+  "places": [
+    {
+      "id": "mecca",
+      "name": "Mecca",
+      "lat": 21.42,
+      "lon": 39.83
+    },
+    {
+      "id": "medina",
+      "name": "Medina",
+      "lat": 24.47,
+      "lon": 39.61
+    },
+    {
+      "id": "damascus",
+      "name": "Syria / Damascus",
+      "lat": 33.51,
+      "lon": 36.29
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30,
+      "lon": 31.2
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "id": "maghreb",
+      "name": "North Africa",
+      "lat": 35,
+      "lon": 10
+    },
+    {
+      "id": "iberia",
+      "name": "Iberia",
+      "lat": 37.89,
+      "lon": -4.78
+    },
+    {
+      "id": "sindh",
+      "name": "Sindh / Indus region",
+      "lat": 25,
+      "lon": 68
+    },
+    {
+      "id": "baghdad",
+      "name": "Baghdad",
+      "lat": 33.32,
+      "lon": 44.37
+    },
+    {
+      "id": "central",
+      "name": "Central Asia",
+      "lat": 39.65,
+      "lon": 66.96
+    },
+    {
+      "id": "china",
+      "name": "Chinese maritime ports",
+      "lat": 24.87,
+      "lon": 118.68
+    },
+    {
+      "id": "sahel",
+      "name": "West African Sahel",
+      "lat": 16.77,
+      "lon": -3.01
+    },
+    {
+      "id": "east-africa",
+      "name": "East African coast",
+      "lat": -6.16,
+      "lon": 39.19
+    },
+    {
+      "id": "malay",
+      "name": "Malay Peninsula",
+      "lat": 2.2,
+      "lon": 102.25
+    },
+    {
+      "id": "sumatra",
+      "name": "Sumatra",
+      "lat": 5.5,
+      "lon": 95.3
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul / Ottoman lands",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "id": "delhi",
+      "name": "North India / Mughal lands",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "id": "atlantic",
+      "name": "North America",
+      "lat": 32.78,
+      "lon": -79.93
+    }
+  ],
+  "events": [
+    {
+      "id": "tradition",
+      "year": null,
+      "date": "Before the dated timeline",
+      "title": "From Adam, in Islamic belief",
+      "text": "Islamic tradition understands the prophets’ message as submission to Allah. The Qur’an describes Ibrahim as a Muslim. These scriptural beginnings cannot be assigned a reliable calendar year, world population, or exact place on this map.",
+      "mechanism": "Scriptural account",
+      "places": [],
+      "links": [],
+      "sources": [
+        "quran"
+      ],
+      "population": null
+    },
+    {
+      "id": "610",
+      "year": 610,
+      "date": "610 CE",
+      "title": "A message in Mecca",
+      "text": "Muhammad’s first revelation is traditionally dated to 610. His preaching in Mecca called people to the worship of one God.",
+      "mechanism": "Preaching",
+      "places": [
+        "mecca"
+      ],
+      "links": [],
+      "sources": [
+        "birth"
+      ],
+      "population": null
+    },
+    {
+      "id": "622",
+      "year": 622,
+      "date": "622 CE",
+      "title": "A community in Medina",
+      "text": "The Hijrah took Muhammad and his followers from Mecca to Medina. The growing community there became the starting point of the Islamic calendar.",
+      "mechanism": "Migration & community",
+      "places": [
+        "mecca",
+        "medina"
+      ],
+      "links": [
+        [
+          "mecca",
+          "medina"
+        ]
+      ],
+      "sources": [
+        "birth"
+      ],
+      "population": null
+    },
+    {
+      "id": "650",
+      "year": 650,
+      "date": "632–661 CE",
+      "title": "Beyond the Arabian Peninsula",
+      "text": "Under the early caliphs, Arab armies took Syria, Egypt, Iraq and Iran. Political control expanded rapidly; the populations of these lands did not all become Muslim at once.",
+      "mechanism": "Political expansion",
+      "places": [
+        "medina",
+        "damascus",
+        "egypt",
+        "iran"
+      ],
+      "links": [
+        [
+          "medina",
+          "damascus"
+        ],
+        [
+          "medina",
+          "egypt"
+        ],
+        [
+          "medina",
+          "iran"
+        ]
+      ],
+      "sources": [
+        "birth"
+      ],
+      "population": null
+    },
+    {
+      "id": "750",
+      "year": 750,
+      "date": "661–750 CE",
+      "title": "From the Atlantic to the Indus",
+      "text": "The Umayyad caliphate, centred in Damascus, extended across North Africa and into Iberia and the Indus region. The markers locate selected parts of this realm; they do not measure conversion.",
+      "mechanism": "Political expansion",
+      "places": [
+        "damascus",
+        "maghreb",
+        "iberia",
+        "sindh"
+      ],
+      "links": [
+        [
+          "damascus",
+          "maghreb"
+        ],
+        [
+          "maghreb",
+          "iberia"
+        ],
+        [
+          "damascus",
+          "sindh"
+        ]
+      ],
+      "sources": [
+        "umayyad"
+      ],
+      "population": null
+    },
+    {
+      "id": "900",
+      "year": 900,
+      "date": "8th–10th centuries",
+      "title": "Cities connected by exchange",
+      "text": "Baghdad became the Abbasid capital in 762. Overland and maritime networks connected the Islamic world with Central Asia and Chinese ports, carrying ideas and religious practices alongside goods.",
+      "mechanism": "Trade & scholarship",
+      "places": [
+        "baghdad",
+        "central",
+        "china"
+      ],
+      "links": [
+        [
+          "baghdad",
+          "central"
+        ],
+        [
+          "central",
+          "china"
+        ]
+      ],
+      "sources": [
+        "abbasid",
+        "silk"
+      ],
+      "population": null
+    },
+    {
+      "id": "1300",
+      "year": 1300,
+      "date": "8th–14th centuries",
+      "title": "Across the Sahara",
+      "text": "Muslim merchants, rulers and scholars helped Islam take root in West Africa over centuries. Communities adapted and debated religious practices; trade and political patronage were part of a gradual process.",
+      "mechanism": "Trade & local communities",
+      "places": [
+        "maghreb",
+        "sahel"
+      ],
+      "links": [
+        [
+          "maghreb",
+          "sahel"
+        ]
+      ],
+      "sources": [
+        "africa"
+      ],
+      "population": null
+    },
+    {
+      "id": "1500",
+      "year": 1500,
+      "date": "Medieval maritime networks",
+      "title": "Across the Indian Ocean",
+      "text": "Maritime trade connected East Africa, Arabia, India and Southeast Asia. Merchants helped introduce Islam to Indonesia and Malaysia. These arcs show broad connections, not exact voyages or first-arrival dates.",
+      "mechanism": "Trade & community",
+      "places": [
+        "east-africa",
+        "mecca",
+        "sindh",
+        "sumatra",
+        "malay"
+      ],
+      "links": [
+        [
+          "east-africa",
+          "mecca"
+        ],
+        [
+          "mecca",
+          "sindh"
+        ],
+        [
+          "sindh",
+          "sumatra"
+        ],
+        [
+          "sumatra",
+          "malay"
+        ]
+      ],
+      "sources": [
+        "silk"
+      ],
+      "population": null
+    },
+    {
+      "id": "1600",
+      "year": 1600,
+      "date": "15th–17th centuries",
+      "title": "Many Muslim political worlds",
+      "text": "Ottoman expansion linked Anatolia, southeastern Europe and Arab lands. Safavid rulers established Shi‘i state patronage in Iran, while Mughal rule grew in South Asia. Their societies remained religiously diverse.",
+      "mechanism": "Rule & religious institutions",
+      "places": [
+        "istanbul",
+        "iran",
+        "delhi"
+      ],
+      "links": [],
+      "sources": [
+        "ottoman",
+        "safavid",
+        "mughal"
+      ],
+      "population": null
+    },
+    {
+      "id": "1800",
+      "year": 1800,
+      "date": "16th–19th centuries",
+      "title": "Across the Atlantic, under coercion",
+      "text": "Muslims were among the Africans forcibly transported to the Americas through slavery. Their writings and lives preserve evidence of faith under oppression. This connection represents forced displacement.",
+      "mechanism": "Forced migration",
+      "places": [
+        "sahel",
+        "atlantic"
+      ],
+      "links": [
+        [
+          "sahel",
+          "atlantic"
+        ]
+      ],
+      "sources": [
+        "america"
+      ],
+      "population": null
+    },
+    {
+      "id": "1900",
+      "year": 1900,
+      "date": "1900 CE",
+      "title": "A global population snapshot",
+      "text": "This is a retrospective worldwide estimate from the World Christian Database’s 2026 table. Its methodology differs from Pew’s. No regional population distribution for this year is inferred from the total.",
+      "mechanism": "Demographic estimate",
+      "places": [],
+      "links": [],
+      "sources": [
+        "wcd"
+      ],
+      "population": {
+        "value": 200301000,
+        "series": "wcd",
+        "year": 1900,
+        "note": "Retrospective estimate; rounded for display."
+      }
+    },
+    {
+      "id": "1970",
+      "year": 1970,
+      "date": "1970 CE",
+      "title": "A global population snapshot",
+      "text": "This is a retrospective worldwide estimate from the World Christian Database’s 2026 table. Its methodology differs from Pew’s. No regional population distribution for this year is inferred from the total.",
+      "mechanism": "Demographic estimate",
+      "places": [],
+      "links": [],
+      "sources": [
+        "wcd"
+      ],
+      "population": {
+        "value": 576995000,
+        "series": "wcd",
+        "year": 1970,
+        "note": "Retrospective estimate; rounded for display."
+      }
+    },
+    {
+      "id": "2000",
+      "year": 2000,
+      "date": "2000 CE",
+      "title": "A global population snapshot",
+      "text": "This is a retrospective worldwide estimate from the World Christian Database’s 2026 table. Its methodology differs from Pew’s. No regional population distribution for this year is inferred from the total.",
+      "mechanism": "Demographic estimate",
+      "places": [],
+      "links": [],
+      "sources": [
+        "wcd"
+      ],
+      "population": {
+        "value": 1311342000,
+        "series": "wcd",
+        "year": 2000,
+        "note": "Retrospective estimate; rounded for display."
+      }
+    },
+    {
+      "id": "2010",
+      "year": 2010,
+      "date": "2010 CE",
+      "title": "Measuring a worldwide faith",
+      "text": "Modern estimates bring the scale of Muslim communities into view. The regional circles use Pew’s population totals and rounded Muslim percentages. They represent whole regions, not the cities beneath them.",
+      "mechanism": "Demographic estimate",
+      "places": [],
+      "links": [],
+      "sources": [
+        "pew",
+        "regions"
+      ],
+      "population": {
+        "value": 1700000000,
+        "series": "pew",
+        "year": 2010,
+        "note": "Pew’s rounded global estimate, revised in its 2025 report."
+      }
+    },
+    {
+      "id": "2020",
+      "year": 2020,
+      "date": "2020 CE",
+      "title": "Around two billion people",
+      "text": "Pew estimates about two billion Muslims worldwide in 2020. Its research identifies a younger population and higher fertility as important drivers of growth. Migration also changes where communities live.",
+      "mechanism": "Demography & migration",
+      "places": [],
+      "links": [],
+      "sources": [
+        "pew",
+        "regions",
+        "drivers"
+      ],
+      "population": {
+        "value": 2000000000,
+        "series": "pew",
+        "year": 2020,
+        "note": "Pew estimate, published in June 2025."
+      }
+    },
+    {
+      "id": "2026",
+      "year": 2026,
+      "date": "2026 · Today’s chapter",
+      "title": "A living, global faith",
+      "text": "The World Christian Database’s 2026 table estimates about 2.1 billion Muslims. This is an annual demographic estimate, not a live census. Regional circles remain at Pew’s 2020 snapshot, clearly dated below.",
+      "mechanism": "Current estimate",
+      "places": [],
+      "links": [],
+      "sources": [
+        "wcd",
+        "regions"
+      ],
+      "population": {
+        "value": 2105142000,
+        "series": "wcd",
+        "year": 2026,
+        "note": "WCD 2026 estimate. Different series from Pew; do not infer growth by subtracting their totals."
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "name": "Asia–Pacific",
+      "lat": 23,
+      "lon": 100,
+      "source": "regions",
+      "snapshots": {
+        "2010": {
+          "total": 4128250000,
+          "muslimPercent": 24.8,
+          "value": 1023806000
+        },
+        "2020": {
+          "total": 4544800000,
+          "muslimPercent": 26.1,
+          "value": 1186192800
+        }
+      }
+    },
+    {
+      "id": "mena",
+      "name": "Middle East & North Africa",
+      "lat": 27,
+      "lon": 30,
+      "source": "regions",
+      "snapshots": {
+        "2010": {
+          "total": 355630000,
+          "muslimPercent": 94.0,
+          "value": 334292200
+        },
+        "2020": {
+          "total": 439690000,
+          "muslimPercent": 94.2,
+          "value": 414187980
+        }
+      }
+    },
+    {
+      "id": "ssa",
+      "name": "Sub-Saharan Africa",
+      "lat": 0,
+      "lon": 20,
+      "source": "regions",
+      "snapshots": {
+        "2010": {
+          "total": 861270000,
+          "muslimPercent": 32.0,
+          "value": 275606400
+        },
+        "2020": {
+          "total": 1124520000,
+          "muslimPercent": 32.8,
+          "value": 368842560
+        }
+      }
+    },
+    {
+      "id": "europe",
+      "name": "Europe",
+      "lat": 53,
+      "lon": 25,
+      "source": "regions",
+      "snapshots": {
+        "2010": {
+          "total": 741700000,
+          "muslimPercent": 5.3,
+          "value": 39310100
+        },
+        "2020": {
+          "total": 752960000,
+          "muslimPercent": 6.0,
+          "value": 45177600
+        }
+      }
+    },
+    {
+      "id": "north-america",
+      "name": "North America",
+      "lat": 40,
+      "lon": -100,
+      "source": "regions",
+      "snapshots": {
+        "2010": {
+          "total": 345260000,
+          "muslimPercent": 1.1,
+          "value": 3797860
+        },
+        "2020": {
+          "total": 377610000,
+          "muslimPercent": 1.6,
+          "value": 6041760
+        }
+      }
+    },
+    {
+      "id": "latin-america",
+      "name": "Latin America & Caribbean",
+      "lat": -15,
+      "lon": -60,
+      "source": "regions",
+      "snapshots": {
+        "2010": {
+          "total": 588470000,
+          "muslimPercent": 0.1,
+          "value": 588470
+        },
+        "2020": {
+          "total": 646240000,
+          "muslimPercent": 0.1,
+          "value": 646240
+        }
+      }
+    }
+  ],
+  "methodology": [
+    "The timeline advances through selected chapters, not evenly spaced years. Historical connections are illustrative, not exact routes, borders, first arrivals, or conversion rates.",
+    "Historic place markers are equal-sized. Modern circle areas are proportional to regional counts before globe perspective; small circles have an outlined hit target. No territorial ownership or Muslim majority is implied.",
+    "There are no global population estimates in this edition before 1900. Missing counts are unknown, not zero. No interpolation fills the gaps.",
+    "Global snapshots use WCD 2026 (1900, 1970, 2000, 2026) and Pew 2025 (2010, 2020). These series differ: WCD estimates about 1.9 billion for 2020, versus Pew’s 2.0 billion. Do not treat the combined snapshots as one growth series.",
+    "Regional counts equal Pew Appendix B population × rounded Muslim share. They are approximate and may differ from Pew’s unrounded counts or the global total. 2026 uses the 2020 regional map, without projecting it forward.",
+    "Modern Natural Earth coastlines provide orientation only, including in the undated scriptural chapter. No ancient geography is reconstructed."
+  ],
+  "populationSeries": {
+    "source": {
+      "title": "World Christian Database — Status of Global Christianity 2026, row 14: Muslims",
+      "url": "https://www.worldchristiandatabase.org/static/downloads/Status-of-Global-Christianity-2026.2b54be19fc0c.pdf",
+      "kind": "Historical and current demographic estimates"
+    },
+    "points": [
+      {
+        "year": 1900,
+        "value": 200301000
+      },
+      {
+        "year": 1970,
+        "value": 576995000
+      },
+      {
+        "year": 2000,
+        "value": 1311342000
+      },
+      {
+        "year": 2020,
+        "value": 1917487000
+      },
+      {
+        "year": 2026,
+        "value": 2105142000
+      }
+    ]
+  }
+}

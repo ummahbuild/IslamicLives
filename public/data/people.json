@@ -1,0 +1,2527 @@
+{
+  "version": 1,
+  "reviewed": "2026-09-08",
+  "coverage": "Partial collection; exhaustive corpus indexing is in progress.",
+  "people": [
+    {
+      "id": "adam",
+      "name": "Adam",
+      "arabic": "آدم",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Knowledge and repentance",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "The Qur’an describes Allah teaching Adam the names and the angels being commanded to bow before him. Iblis refuses.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "After the transgression, Adam receives words from his Lord and his repentance is accepted. The account makes room for return after wrongdoing.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 2:30-34",
+          "url": "https://quran.com/2/30-34",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 2:35-37",
+          "url": "https://quran.com/2/35-37",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "idris",
+      "name": "Idris",
+      "arabic": "إدريس",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Truthfulness and patience",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Idris is described as a truthful prophet, raised to a high station.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "He is named with Ismail and Dhul-Kifl among those who were patient. These brief passages do not supply a full biography.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 19:56-57",
+          "url": "https://quran.com/19/56-57",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 21:85-86",
+          "url": "https://quran.com/21/85-86",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "nuh",
+      "name": "Nuh",
+      "arabic": "نوح",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A messenger to his people",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Nuh calls his people to worship Allah alone. The Qur’an describes opposition from their leaders.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "He is instructed to construct the ark. Later, the account names al-Judi as its resting place; a precise modern identification is not asserted here.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 11:25-27",
+          "url": "https://quran.com/11/25-27",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 11:37-44",
+          "url": "https://quran.com/11/37-44",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "hud",
+      "name": "Hud",
+      "arabic": "هود",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "The people of ‘Ad; exact location not established",
+      "coordinates": null,
+      "role": "The call to ‘Ad",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Hud is sent to ‘Ad and calls them to worship Allah. He asks no payment from his people for delivering the message.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "The Qur’an describes Hud and those who believe with him being rescued by divine mercy.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 11:50-51",
+          "url": "https://quran.com/11/50-51",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 11:58",
+          "url": "https://quran.com/11/58",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "salih",
+      "name": "Salih",
+      "arabic": "صالح",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Thamud; no precise location asserted",
+      "coordinates": null,
+      "role": "A warning to Thamud",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Salih calls Thamud to worship Allah and presents the she-camel as a sign. He warns them against harming her.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "The account describes the killing of the camel and the punishment that follows. Salih says he had delivered his Lord’s message and counselled his people.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 7:73",
+          "url": "https://quran.com/7/73",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 7:77-79",
+          "url": "https://quran.com/7/77-79",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ibrahim",
+      "name": "Ibrahim",
+      "arabic": "إبراهيم",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "The House in the Qur’anic account",
+      "coordinates": null,
+      "role": "Faith and the House",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "The Qur’an presents Ibrahim as devoted to Allah, rejecting the assignment of partners to Him.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "Ibrahim and Ismail raise the foundations of the House and ask Allah to accept their work. Their prayer also concerns the generations to come.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 3:67",
+          "url": "https://quran.com/3/67",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 2:127-129",
+          "url": "https://quran.com/2/127-129",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "lut",
+      "name": "Lut",
+      "arabic": "لوط",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "An unnamed town in the cited passage",
+      "coordinates": null,
+      "role": "Deliverance from a corrupt town",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "The Qur’an describes Lut as receiving judgement and knowledge, and being rescued from a town associated with wrongdoing.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "He is also named among those preferred by Allah in the Qur’an’s enumeration of earlier messengers.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 21:74",
+          "url": "https://quran.com/21/74",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 6:86",
+          "url": "https://quran.com/6/86",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ismail",
+      "name": "Ismail",
+      "arabic": "إسماعيل",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "The House in the Qur’anic account",
+      "coordinates": null,
+      "role": "A promise kept",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Ismail is described as a messenger and prophet who keeps his word and instructs his people in prayer and charity.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "He joins Ibrahim in raising the foundations of the House, praying that their work will be accepted.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 19:54-55",
+          "url": "https://quran.com/19/54-55",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 2:127",
+          "url": "https://quran.com/2/127",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ishaq",
+      "name": "Ishaq",
+      "arabic": "إسحاق",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A family of guidance",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Ishaq is named with Yaqub as a gift to Ibrahim; the passage describes them as guided.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "In Surah Maryam, the account again names Ishaq and Yaqub and says each was made a prophet.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 6:84",
+          "url": "https://quran.com/6/84",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 19:49",
+          "url": "https://quran.com/19/49",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "yaqub",
+      "name": "Yaqub",
+      "arabic": "يعقوب",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A prophet in Ibrahim’s family",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Yaqub is named alongside Ishaq among the guided descendants in the Qur’anic account.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "Surah Maryam explicitly includes Yaqub among those made prophets.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 6:84",
+          "url": "https://quran.com/6/84",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 19:49",
+          "url": "https://quran.com/19/49",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "yusuf",
+      "name": "Yusuf",
+      "arabic": "يوسف",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Egypt",
+      "coordinates": null,
+      "role": "Trust and forgiveness",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Yusuf asks to be entrusted with the storehouses of the land, describing his ability to protect and manage them.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "When his brothers face him, he releases them from reproach and asks that Allah forgive them.",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "title": "A place named in the account",
+          "text": "Yusuf welcomes his parents to Egypt in the Qur’anic account. The region is named even though the verse does not establish a birth date or exact city.",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 12:55",
+          "url": "https://quran.com/12/55",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 12:92",
+          "url": "https://quran.com/12/92",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 12:99",
+          "url": "https://quran.com/12/99",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08",
+      "placeEvidence": {
+        "status": "Named in scripture",
+        "text": "Yusuf welcomes his parents to Egypt in the Qur’anic account. The region is named even though the verse does not establish a birth date or exact city.",
+        "sources": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "ayyub",
+      "name": "Ayyub",
+      "arabic": "أيوب",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A prayer in suffering",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Ayyub calls upon his Lord during affliction, invoking divine mercy.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "The next verse describes the removal of his suffering and the restoration of his family as a mercy and reminder.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 21:83",
+          "url": "https://quran.com/21/83",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 21:84",
+          "url": "https://quran.com/21/84",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "shuayb",
+      "name": "Shuayb",
+      "arabic": "شعيب",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Madyan; exact location not asserted",
+      "coordinates": null,
+      "role": "Faith and honest dealing",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Shuayb calls the people of Madyan to worship Allah and deal fairly in weights, measures, and other people’s property.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "He describes reform as his aim, within his ability, and places his trust in Allah.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 7:85",
+          "url": "https://quran.com/7/85",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 11:88",
+          "url": "https://quran.com/11/88",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "musa",
+      "name": "Musa",
+      "arabic": "موسى",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Egypt; later Madyan",
+      "coordinates": null,
+      "role": "A messenger and a brother",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Musa asks for his brother Harun to assist him and share in his task.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "Surah Maryam describes Musa as a chosen messenger and prophet, called from the side of Mount Tur.",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "title": "A place named in the account",
+          "text": "The Qur’an explicitly locates Musa and his brother’s community in Egypt. This identifies a region, not a precise house or birthplace.",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 20:29-32",
+          "url": "https://quran.com/20/29-32",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 19:51-53",
+          "url": "https://quran.com/19/51-53",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 10:87",
+          "url": "https://quran.com/10/87",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 28:22",
+          "url": "https://quran.com/28/22",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08",
+      "placeEvidence": {
+        "status": "Named in scripture",
+        "text": "The Qur’an explicitly locates Musa and his brother’s community in Egypt. This identifies a region, not a precise house or birthplace. Surah al-Qasas also names Madyan as the direction of his journey.",
+        "sources": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "harun",
+      "name": "Harun",
+      "arabic": "هارون",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Egypt",
+      "coordinates": null,
+      "role": "Support in a prophetic mission",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Musa asks that his brother Harun be appointed to strengthen him in his task.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "The Qur’an describes Harun’s appointment as a prophet as a gift of divine mercy to Musa.",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "title": "A place named in the account",
+          "text": "Egypt is explicitly named in the instruction addressed to Musa and his brother. This is an associated region, not a verified birthplace.",
+          "sources": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 20:29-32",
+          "url": "https://quran.com/20/29-32",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 19:53",
+          "url": "https://quran.com/19/53",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 10:87",
+          "url": "https://quran.com/10/87",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08",
+      "placeEvidence": {
+        "status": "Named in scripture",
+        "text": "Egypt is explicitly named in the instruction addressed to Musa and his brother. This is an associated region, not a verified birthplace.",
+        "sources": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "dhul-kifl",
+      "name": "Dhul-Kifl",
+      "arabic": "ذو الكفل",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Patience in a brief account",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Dhul-Kifl is named with Ismail and Idris among the patient.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "The following verse includes them among the righteous admitted to divine mercy. The text does not give Dhul-Kifl a detailed life story.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 21:85",
+          "url": "https://quran.com/21/85",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 21:86",
+          "url": "https://quran.com/21/86",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted. Commonly included in the traditional list of 25 prophets; commentators differ over whether these verses establish his prophethood. Identification with Ezekiel is not asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "dawud",
+      "name": "Dawud",
+      "arabic": "داود",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Judgement and praise",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "The Qur’an describes Dawud and Sulayman judging a case concerning a field.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "Both receive judgement and knowledge. The mountains and birds are described as praising Allah with Dawud.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 21:78",
+          "url": "https://quran.com/21/78",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 21:79",
+          "url": "https://quran.com/21/79",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "sulayman",
+      "name": "Sulayman",
+      "arabic": "سليمان",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Understanding and judgement",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Sulayman appears with Dawud in the account of a judgement concerning a field.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "Allah grants Sulayman understanding of the case, while affirming the judgement and knowledge bestowed on both men.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 21:78",
+          "url": "https://quran.com/21/78",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 21:79",
+          "url": "https://quran.com/21/79",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ilyas",
+      "name": "Ilyas",
+      "arabic": "إلياس",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Among the righteous",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Ilyas is named with Zakariyya, Yahya, and Isa among the righteous.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "The passage continues by identifying the enumerated figures as recipients of scripture, authority, and prophethood.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 6:85",
+          "url": "https://quran.com/6/85",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 6:89",
+          "url": "https://quran.com/6/89",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "alyasa",
+      "name": "Al-Yasa",
+      "arabic": "اليسع",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A name preserved in revelation",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Al-Yasa is named alongside Ismail, Yunus, and Lut among those preferred by Allah.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "The passage identifies these figures as recipients of scripture, authority, and prophethood. It does not provide Al-Yasa’s full biography.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 6:86",
+          "url": "https://quran.com/6/86",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 6:89",
+          "url": "https://quran.com/6/89",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "yunus",
+      "name": "Yunus",
+      "arabic": "يونس",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A call from darkness",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Yunus is named among earlier figures favoured by Allah.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "The account of the man of the fish describes a prayer from darkness, acknowledging wrongdoing; the following verse describes deliverance from distress.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 6:86",
+          "url": "https://quran.com/6/86",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 21:87-88",
+          "url": "https://quran.com/21/87-88",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "zakariyya",
+      "name": "Zakariyya",
+      "arabic": "زكريا",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A prayer answered",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Zakariyya prays privately to his Lord, describing his old age and asking for an heir.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "He receives the news of a son named Yahya. The account explicitly presents the birth as divine favour.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 19:2-6",
+          "url": "https://quran.com/19/2-6",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 19:7",
+          "url": "https://quran.com/19/7",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "yahya",
+      "name": "Yahya",
+      "arabic": "يحيى",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "The gift of a son",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "Yahya is the name given in the announcement to Zakariyya that he will have a son.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "He is also named among the righteous in Surah al-An‘am’s list of earlier prophetic figures.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 19:7",
+          "url": "https://quran.com/19/7",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 6:85",
+          "url": "https://quran.com/6/85",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "isa",
+      "name": "Isa",
+      "arabic": "عيسى",
+      "category": "Prophets",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "The Children of Israel; no birthplace asserted",
+      "coordinates": null,
+      "role": "A messenger to the Children of Israel",
+      "chapters": [
+        {
+          "title": "In the Qur’an",
+          "text": "In the Qur’anic account, Isa identifies himself as a servant of Allah who has received scripture and been made a prophet.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The account continues",
+          "text": "He is sent to the Children of Israel with signs, including healing, explicitly described as occurring by Allah’s permission.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 19:30",
+          "url": "https://quran.com/19/30",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 3:49",
+          "url": "https://quran.com/3/49",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "muhammad",
+      "name": "Muhammad",
+      "arabic": "محمد",
+      "category": "Prophets",
+      "era": "Early Islam",
+      "date": "c. 570–632 CE",
+      "year": 570,
+      "place": "Mecca and Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "The Prophet of Islam",
+      "chapters": [
+        {
+          "title": "The beginning of revelation",
+          "text": "Islamic tradition describes Muhammad receiving revelation at Hira and returning to Khadijah, who reassures him. The report is transmitted by Aisha in Sahih al-Bukhari.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A community in Medina",
+          "text": "The migration to Medina in 622 marks a central turning point in his mission. Muhammad died in 632. The Qur’an calls him the Messenger of Allah and the seal of the prophets.",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 3",
+          "url": "https://sunnah.com/bukhari:3",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Prophet Muhammad — World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Prophet_Muhammad/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 33:40",
+          "url": "https://quran.com/33/40",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The birth year is approximate. Religious claims are identified as Qur’anic or hadith accounts.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "maryam",
+      "name": "Maryam",
+      "arabic": "مريم",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Devotion and the birth of Isa",
+      "chapters": [
+        {
+          "title": "Chosen and purified",
+          "text": "The Qur’an describes angels announcing to Maryam that Allah has chosen and purified her.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The announcement",
+          "text": "Surah Maryam recounts her withdrawal from her family and the arrival of a messenger announcing a son. Her question about bearing a child is part of the account.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 3:42",
+          "url": "https://quran.com/3/42",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 19:16-22",
+          "url": "https://quran.com/19/16-22",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "No exact date or birthplace is supplied by these passages. Maryam’s status as a prophet is debated; she is classified here as a Qur’anic person.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "khadijah",
+      "name": "Khadijah bint Khuwaylid",
+      "arabic": "خديجة بنت خويلد",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "Late 6th–early 7th century CE",
+      "year": null,
+      "place": "Mecca",
+      "coordinates": [
+        21.42,
+        39.83
+      ],
+      "role": "Support at the beginning",
+      "chapters": [
+        {
+          "title": "A return from Hira",
+          "text": "In the report of the first revelation, Muhammad returns frightened to his wife Khadijah. She reassures him by recalling his care for relatives, guests, and people in need.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Seeking understanding",
+          "text": "The same report says Khadijah takes Muhammad to her cousin Waraqah ibn Nawfal to hear what happened. Her response forms a central part of the transmitted account of revelation’s beginning.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 3",
+          "url": "https://sunnah.com/bukhari:3",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Her exact birth year and age at marriage are not asserted. This account follows the Sunni hadith report.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "aisha",
+      "name": "Aisha bint Abi Bakr",
+      "arabic": "عائشة بنت أبي بكر",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "A transmitter of knowledge",
+      "chapters": [
+        {
+          "title": "Preserving an account",
+          "text": "Aisha is the named transmitter of the account of the beginning of revelation in Sahih al-Bukhari. Her narration preserves the story of Muhammad’s return to Khadijah.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A source of understanding",
+          "text": "A report from Abu Musa describes the Companions consulting Aisha when they needed help understanding a hadith. It bears witness to her place in the transmission of religious knowledge.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 3",
+          "url": "https://sunnah.com/bukhari:3",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Jami‘ at-Tirmidhi 3883",
+          "url": "https://sunnah.com/tirmidhi:3883",
+          "kind": "Hadith",
+          "note": "Graded Hasan by Darussalam on the consulted page.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "These are reports within Sunni hadith collections. They are not a comprehensive account of her life.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "abu-bakr",
+      "name": "Abu Bakr",
+      "arabic": "أبو بكر",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "c. 573–634 CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "The first caliph",
+      "chapters": [
+        {
+          "title": "Companionship",
+          "text": "Abu Bakr was an early Muslim and accompanied Muhammad on the migration from Mecca to Medina in 622.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "After 632",
+          "text": "He became the first caliph after Muhammad’s death and ruled until 634. His reign included the Ridda wars and the consolidation of rule in Arabia.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Abu Bakr — World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Abu_Bakr/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Succession and religious authority are interpreted differently in Sunni and Shia traditions. A short historical summary does not settle those differences.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "umar",
+      "name": "Umar ibn al-Khattab",
+      "arabic": "عمر بن الخطاب",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "Died 644 CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "The second caliph",
+      "chapters": [
+        {
+          "title": "A succession",
+          "text": "Umar succeeded Abu Bakr in 634 and led the caliphate until 644.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A changing state",
+          "text": "His reign saw expansion into Byzantine and Sasanian territories and changes to the administration of the growing state.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Umar ibn al-Khattab — World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Umar/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Succession and religious authority are interpreted differently in Sunni and Shia traditions. A short historical summary does not settle those differences.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "uthman",
+      "name": "Uthman ibn Affan",
+      "arabic": "عثمان بن عفان",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "Died 656 CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "The third caliph",
+      "chapters": [
+        {
+          "title": "Leadership",
+          "text": "Uthman succeeded Umar and ruled from 644 to 656. His death came during a rebellion against his government.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The written Qur’an",
+          "text": "Sahih al-Bukhari reports Uthman commissioning copies of the Qur’an from manuscripts held by Hafsah and sending copies to different regions.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Uthman ibn Affan — World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Uthman/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 4987",
+          "url": "https://sunnah.com/bukhari:4987",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Succession and religious authority are interpreted differently in Sunni and Shia traditions. A short historical summary does not settle those differences.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ali",
+      "name": "Ali ibn Abi Talib",
+      "arabic": "علي بن أبي طالب",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "Died 661 CE",
+      "year": null,
+      "place": "Kufa",
+      "coordinates": [
+        32.03,
+        44.4
+      ],
+      "role": "Caliph and imam",
+      "chapters": [
+        {
+          "title": "Family and community",
+          "text": "Ali was Muhammad’s cousin and son-in-law. He became caliph in 656.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A divided community",
+          "text": "His caliphate unfolded during the first civil war. He was assassinated in 661. Sunni tradition counts him as the fourth rightly guided caliph; Shia tradition recognises him as the first imam.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ali ibn Abi Talib — World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Ali_ibn_Abi_Talib/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Succession and religious authority are interpreted differently in Sunni and Shia traditions. A short historical summary does not settle those differences.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "al-khwarizmi",
+      "name": "Al-Khwarizmi",
+      "arabic": "الخوارزمي",
+      "category": "Historical people",
+      "era": "Medieval worlds",
+      "date": "c. 780–c. 850 CE",
+      "year": 780,
+      "place": "Baghdad",
+      "coordinates": [
+        33.31,
+        44.37
+      ],
+      "role": "Practical mathematics",
+      "chapters": [
+        {
+          "title": "Working in Baghdad",
+          "text": "Al-Khwarizmi worked under the patronage of the Abbasid caliph al-Ma’mun. His mathematical writing addressed practical problems as well as methods of calculation.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Words that travelled",
+          "text": "His algebra treatise helped give algebra its name. The word algorithm derives from the Latin form of his name; his work helped transmit Indian numeral methods.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "MacTutor — University of St Andrews",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "His birthplace is uncertain and his life dates approximate. He did not invent the Indian numerals.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ibn-al-haytham",
+      "name": "Ibn al-Haytham",
+      "arabic": "ابن الهيثم",
+      "category": "Historical people",
+      "era": "Medieval worlds",
+      "date": "c. 965–c. 1040 CE",
+      "year": 965,
+      "place": "Basra and Cairo",
+      "coordinates": [
+        30.04,
+        31.24
+      ],
+      "role": "Investigating light",
+      "chapters": [
+        {
+          "title": "A life in inquiry",
+          "text": "Ibn al-Haytham wrote on mathematics, astronomy, and optics. His career connected Basra with Egypt.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Light and vision",
+          "text": "His Book of Optics examined vision, reflection, and refraction. He argued that light enters the eye from objects, and used experiments in investigating optical questions.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "MacTutor — University of St Andrews",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Accounts of his dealings with al-Hakim differ. Stories of feigned madness are not presented here as settled facts. Death dates vary around 1039–1040.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "al-biruni",
+      "name": "Al-Biruni",
+      "arabic": "البيروني",
+      "category": "Historical people",
+      "era": "Medieval worlds",
+      "date": "973–c. 1048 CE",
+      "year": 973,
+      "place": "Khwarazm and Ghazna",
+      "coordinates": [
+        33.55,
+        68.42
+      ],
+      "role": "Astronomy across cultures",
+      "chapters": [
+        {
+          "title": "Observation and calculation",
+          "text": "Born near Kath in Khwarazm, al-Biruni studied astronomy and mathematics. His observations helped determine geographical positions.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Studying India",
+          "text": "He studied Sanskrit sources and wrote about Indian religion, customs, astronomy, and learning. His work emerged amid political upheaval and Ghaznavid expansion.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "MacTutor — University of St Andrews",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Biruni/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Dates of particular journeys are uncertain. This summary does not claim his travel was voluntary.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ibn-sina",
+      "name": "Ibn Sina",
+      "arabic": "ابن سينا",
+      "category": "Historical people",
+      "era": "Medieval worlds",
+      "date": "c. 970 or 980–1037 CE · birth year disputed",
+      "year": null,
+      "place": "Afshana near Bukhara; later Hamadan and Isfahan",
+      "coordinates": [
+        39.77,
+        64.42
+      ],
+      "role": "Medicine and philosophy",
+      "chapters": [
+        {
+          "title": "Learning and movement",
+          "text": "Ibn Sina grew up in the intellectual world of Bukhara. His career later took him to several courts, where he worked as a physician and adviser.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "An enduring body of work",
+          "text": "His Canon of Medicine became influential in medical teaching, including through Latin translation. His philosophical writings shaped debate across the Islamic world. He died in Hamadan in 1037.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ibn Sina — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/ibn-sina/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The birth-year estimates are displayed as alternatives, not an exact date or a continuous confidence interval. Bukhara is an approximate regional locator. The principal biographical source is his autobiography with al-Juzjani’s continuation, discussed in the linked scholarship.",
+      "reviewed": "2026-09-08",
+      "dateEvidence": {
+        "status": "Disputed birth year",
+        "text": "980 is the conventional birth year. The consulted Stanford biography argues for approximately 970. His death in Hamadan is dated to 1037.",
+        "sources": [
+          0
+        ]
+      },
+      "placeEvidence": {
+        "status": "Documented associated places",
+        "text": "His autobiography, continued by al-Juzjani, places his birth in Afshana near Bukhara. The map locates the Bukhara region; it does not mark an exact birth house.",
+        "sources": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "saladin",
+      "name": "Salah al-Din",
+      "arabic": "صلاح الدين",
+      "category": "Historical people",
+      "era": "Medieval worlds",
+      "date": "c. 1137–1193 CE",
+      "year": 1137,
+      "place": "Egypt and Syria",
+      "coordinates": [
+        33.51,
+        36.29
+      ],
+      "role": "Ayyubid rule",
+      "chapters": [
+        {
+          "title": "Power and alliances",
+          "text": "Salah al-Din, known as Saladin, built his power in Egypt and Syria through both military action and diplomacy.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Jerusalem in 1187",
+          "text": "His forces defeated the Crusader army at Hattin and captured Jerusalem in 1187. His career also involved wars against Muslim rivals; it cannot be reduced to later stories of chivalry.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Saladin — World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Saladin/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Birth dates are given as 1137 or 1138 in different references. Later heroic literature is not treated as direct evidence.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "mansa-musa",
+      "name": "Mansa Musa",
+      "arabic": "منسا موسى",
+      "category": "Historical people",
+      "era": "Medieval worlds",
+      "date": "Active in the early 14th century",
+      "year": null,
+      "place": "Mali and the pilgrimage to Mecca",
+      "coordinates": [
+        16.77,
+        -3.01
+      ],
+      "role": "Pilgrimage and patronage",
+      "chapters": [
+        {
+          "title": "A West African ruler",
+          "text": "Mansa Musa ruled the Mali Empire. His pilgrimage brought him through Cairo in 1324, where accounts of his wealth attracted attention.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Learning and exchange",
+          "text": "His patronage supported Islamic buildings and scholarship. His life belongs to a wider history of trans-Saharan trade, pilgrimage, and intellectual exchange.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mansa Musa — World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Mansa_Musa_I/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The end of his reign is disputed. Modern dollar valuations and “richest person ever” rankings are not reliable historical measurements.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ibn-battuta",
+      "name": "Ibn Battuta",
+      "arabic": "ابن بطوطة",
+      "category": "Historical people",
+      "era": "Medieval worlds",
+      "date": "Journeys from 1325",
+      "year": null,
+      "place": "Tangier and Afro-Eurasia",
+      "coordinates": [
+        35.76,
+        -5.83
+      ],
+      "role": "A traveller’s account",
+      "chapters": [
+        {
+          "title": "Leaving home",
+          "text": "Ibn Battuta left Tangier in 1325 to undertake the pilgrimage to Mecca. His travels continued far beyond the initial pilgrimage.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Remembering the journey",
+          "text": "His recollections became the Rihla, dictated after his return. It is an important account of connected Muslim societies, but a travel narrative requires critical reading rather than treating every passage as an independently confirmed visit.",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Travels of Ibn Battuta — UC Berkeley ORIAS",
+          "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Ibn Battuta — translated selections, Fordham",
+          "url": "https://sourcebooks.web.fordham.edu/source/1354-ibnbattuta.asp",
+          "kind": "Historical primary text",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Dates and routes in the Rihla are debated. The map marks Tangier, his point of departure, not every claimed destination.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "sinan",
+      "name": "Mimar Sinan",
+      "arabic": "معمار سنان",
+      "category": "Historical people",
+      "era": "Ottoman world",
+      "date": "16th century CE",
+      "year": null,
+      "place": "Edirne",
+      "coordinates": [
+        41.68,
+        26.56
+      ],
+      "role": "Architecture and public life",
+      "chapters": [
+        {
+          "title": "Building for a city",
+          "text": "Sinan designed the Selimiye Mosque complex in Edirne for Selim II. Its great dome and four minarets remain defining features of the city’s skyline.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Beyond a prayer hall",
+          "text": "The complex included educational and commercial spaces alongside the mosque. It illustrates the Ottoman külliye: a group of buildings serving religious and social functions together.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Selimiye Mosque and its Social Complex — UNESCO",
+          "url": "https://whc.unesco.org/en/list/1366/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "This entry focuses on a surviving, documented work rather than reconstructing uncertain details of his early life.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ahmed-zewail",
+      "name": "Ahmed Zewail",
+      "arabic": "أحمد زويل",
+      "category": "Historical people",
+      "era": "Modern world",
+      "date": "1946–2016 CE",
+      "year": 1946,
+      "place": "Pasadena, California",
+      "coordinates": [
+        34.14,
+        -118.14
+      ],
+      "role": "Seeing chemical change",
+      "chapters": [
+        {
+          "title": "A new timescale",
+          "text": "Ahmed Zewail’s research made it possible to study atomic motion during chemical reactions on femtosecond timescales. This work helped establish femtochemistry.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Science in a connected world",
+          "text": "A Caltech professor, he received the 1999 Nobel Prize in Chemistry. His later work included four-dimensional electron microscopy. He died in 2016.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ahmed Zewail, 1946–2016 — Caltech",
+          "url": "https://www.caltech.edu/about/news/ahmed-zewail-1946-2016-51594",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Included in the modern history of people from the Muslim world; scientific achievement is not used as evidence for a theological claim.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "zayd",
+      "name": "Zayd ibn Harithah",
+      "arabic": "زيد بن حارثة",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A named Companion",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The Qur’an explicitly names Zayd in the passage concerning the end of his marriage and the Prophet’s subsequent marriage.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 33:37",
+          "url": "https://quran.com/33/37",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The verse itself names Zayd; the full identification is supplied by the tafsir shown with the verse. The Qur’an does not name his former wife in this passage.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "abu-lahab",
+      "name": "Abu Lahab",
+      "arabic": "أبو لهب",
+      "category": "Qur’anic people",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Wealth and accountability",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "Surah al-Masad names Abu Lahab and declares that his wealth and gains will not benefit him. The chapter also refers to his wife.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 111:1-5",
+          "url": "https://quran.com/111/1-5",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "This is the Qur’anic account. The chapter does not supply his full genealogy or life dates.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "imran",
+      "name": "Imran",
+      "arabic": "عمران",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A family remembered",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The Qur’an identifies the woman making a vow concerning her unborn child as the wife of Imran.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 3:35",
+          "url": "https://quran.com/3/35",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "This passage gives no detailed biography of Imran. He is not identified here with other historical people who share the name.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "wife-imran",
+      "name": "The wife of Imran",
+      "arabic": "امرأة عمران",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A mother’s dedication",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The wife of Imran dedicates what is in her womb to divine service and asks Allah to accept her offering.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 3:35",
+          "url": "https://quran.com/3/35",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Her personal name is not stated in this verse. Later names should be attributed to their own sources, not presented as Qur’anic wording.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "azar",
+      "name": "Azar",
+      "arabic": "آزر",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "In Ibrahim’s address",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "Ibrahim addresses Azar in a passage challenging the taking of idols as gods. The Arabic text uses the kinship term ab.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 6:74",
+          "url": "https://quran.com/6/74",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Translations commonly render the relationship as father. Some exegetical traditions interpret the relationship differently; this entry does not settle that debate.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "luqman",
+      "name": "Luqman",
+      "arabic": "لقمان",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Wisdom and counsel",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The Qur’an describes Luqman as receiving wisdom and being told to show gratitude to Allah. His counsel to his son warns against associating partners with Allah.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 31:12-13",
+          "url": "https://quran.com/31/12-13",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "His name is explicit, but these verses do not give a birth date, ethnicity, or profession. Those details are not invented.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "uzayr",
+      "name": "Uzayr",
+      "arabic": "عزير",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A name in a theological passage",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "Uzayr is named in a Qur’anic passage rejecting claims of divine sonship.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 9:30",
+          "url": "https://quran.com/9/30",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The verse is a theological statement, not a full biography or a description of what all Jewish people in every period believe. His prophetic status is not asserted here.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "talut",
+      "name": "Talut",
+      "arabic": "طالوت",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A king appointed",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "An unnamed prophet tells his people that Allah has appointed Talut as king. Objections about wealth are answered with reference to his knowledge and stature.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 2:247",
+          "url": "https://quran.com/2/247",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Talut is commonly rendered Saul in translation. No precise date is supplied by the verse.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "jalut",
+      "name": "Jalut",
+      "arabic": "جالوت",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "An opponent in battle",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The Qur’an recounts the defeat of an opposing force and states that Dawud killed Jalut. It then describes Dawud receiving kingship and wisdom.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 2:251",
+          "url": "https://quran.com/2/251",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Commonly rendered Goliath in translation. Later descriptions of his appearance are not added to this entry.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "qarun",
+      "name": "Qarun",
+      "arabic": "قارون",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "The test of wealth",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "Qarun is described as belonging to Musa’s people and acting arrogantly toward them. The passage describes his enormous stores of wealth and the counsel given to him.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 28:76",
+          "url": "https://quran.com/28/76",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’anic account is not assigned a historical financial valuation or an independently verified date.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "haman",
+      "name": "Haman",
+      "arabic": "هامان",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "In Pharaoh’s court",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "Pharaoh addresses Haman and orders construction of a high structure while making a claim about the God of Musa.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 28:38",
+          "url": "https://quran.com/28/38",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Haman of this account is not automatically identified with a similarly named person in another text.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "pharaoh",
+      "name": "Pharaoh in Musa’s account",
+      "arabic": "فرعون",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Power challenged",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The Qur’an presents Pharaoh making a claim of exclusive divinity to his chiefs and directing Haman to build a high structure.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 28:38",
+          "url": "https://quran.com/28/38",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Pharaoh is a title. Identification with a particular Egyptian ruler is not established by this verse.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "samiri",
+      "name": "Al-Samiri",
+      "arabic": "السامري",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A community misled",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "In Surah Taha, Musa is told that his people have been tested in his absence and that al-Samiri has led them astray.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 20:85",
+          "url": "https://quran.com/20/85",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "This designation does not establish his full personal name or a modern ethnic identity.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "queen-sheba",
+      "name": "The Queen of Sheba",
+      "arabic": "ملكة سبأ",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "A woman who ruled",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "In the account of Sulayman, the hoopoe reports finding a woman ruling over a people, supplied with many things and possessing a great throne.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 27:23",
+          "url": "https://quran.com/27/23",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give her personal name. Bilqis belongs to later tradition; it is not substituted for the Qur’an’s unnamed identification.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "wife-pharaoh",
+      "name": "The wife of Pharaoh",
+      "arabic": "امرأة فرعون",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Faith under power",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The Qur’an presents Pharaoh’s wife as an example for believers. She asks Allah for a home near Him in Paradise and for rescue from Pharaoh and wrongdoing.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 66:11",
+          "url": "https://quran.com/66/11",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Her personal name is not stated in the verse. Asiyah is a name found in hadith and later tradition and requires separate attribution.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "sister-musa",
+      "name": "The sister of Musa",
+      "arabic": "أخت موسى",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Watching from a distance",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "Musa’s mother tells his sister to follow him. The account describes her watching him from a distance without the others noticing.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 28:11",
+          "url": "https://quran.com/28/11",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not state her personal name. This entry does not import a name from another tradition.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "wife-nuh",
+      "name": "The wife of Nuh",
+      "arabic": "امرأة نوح",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Responsibility beyond family ties",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The Qur’an names the wife of Nuh by her relationship in an example of disbelief. Her relationship to a righteous servant does not protect her from judgement.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 66:10",
+          "url": "https://quran.com/66/10",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The verse does not give her personal name. Its language of betrayal is not expanded into an invented allegation of sexual infidelity.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "wife-lut",
+      "name": "The wife of Lut",
+      "arabic": "امرأة لوط",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "Responsibility beyond family ties",
+      "chapters": [
+        {
+          "title": "In the source",
+          "text": "The wife of Lut appears with the wife of Nuh in the Qur’an’s example of people whose family relationships did not protect them from judgement.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 66:10",
+          "url": "https://quran.com/66/10",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The verse does not give her personal name. Her entry remains distinct from the wife of Nuh.",
+      "reviewed": "2026-09-08"
+    }
+  ]
+}
