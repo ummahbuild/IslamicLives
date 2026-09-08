@@ -1,1 +1,6 @@
 .DS_Store
+node_modules/
+.expo/
+apps/mobile/dist/
+apps/mobile/.expo/
+npm-debug.log*

@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Islamic Lives",
+    "slug": "islamic-lives",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "islamiclives",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "build.ummah.islamiclives"
+    },
+    "android": {
+      "package": "build.ummah.islamiclives",
+      "edgeToEdgeEnabled": true
+    },
+    "web": { "bundler": "metro", "output": "single" },
+    "experiments": { "autolinkingModuleResolution": true }
+  }
+}

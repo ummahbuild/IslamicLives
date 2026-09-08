@@ -1,5 +1,7 @@
 # Islamic Lives development plan
 
+The repository is now staged as an npm-workspace monorepo with web and Expo apps plus a generated shared-content package. See `MONOREPO_MIGRATION.md` and `FEATURE_PARITY.md` for migration gates and platform differences.
+
 ## Phase 1 — Evidence harness
 
 - Maintain structured Qur’an and Sunnah coverage for every prophet.
@@ -26,6 +28,13 @@
 - Create crawlable routes for the atlas and methodology pages.
 - Add social preview art, a robust static error fallback, automated accessibility checks, link checking, and page-weight budgets.
 - Add CI and preview deployment after the no-package policy and hosting target are confirmed.
+
+## Phase 5 — Native release
+
+- The Expo SDK 57 workspace, shared content package, EAS profiles, and CI export gate are now present.
+- Add category filtering, native deep-link routing, app icons/splash assets, saved profiles, and full VoiceOver/TalkBack verification.
+- Configure EAS project ownership and store credentials only after the ummah.build owner approves identifiers and listing content.
+- Run TestFlight and Play internal testing before public submission.
 
 ## Release gate
 

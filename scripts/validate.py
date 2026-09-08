@@ -19,6 +19,8 @@ for p in people:
   assert all(isinstance(i,int) and 0<=i<len(p['sources']) for i in c['sources'])
  if p['category']=='Prophets':
   assert 'quranReferences' in p and p['quranReferences'],p['id']
+  assert p.get('keyQuranPassages') and p.get('factCheck',{}).get('status')=='Source-alignment checked',p['id']
+  assert all(__import__('re').fullmatch(r'\d{1,3}:\d{1,3}(?:-\d{1,3})?',ref) for ref in p['keyQuranPassages']),p['id']
   assert 'sunnahEvidence' in p,p['id']
   se=p['sunnahEvidence']
   assert se['status'] in {'Referenced','Research gap'} and se['text']
@@ -39,4 +41,5 @@ assert next(e for e in mentions if e['personId']=='adam')['tokenCount']==25
 generated=r/'public/prophets/index.html'
 assert generated.exists() and all(f'/prophets/{pid}/' in generated.read_text() for pid in expected)
 assert (r/'public/explore/index.html').exists()
+assert all((r/f'public/{route}').exists() for route in ['about/index.html','spread/index.html','404.html'])
 print(f'PASS: {len(mentions)} name-index records and source location integrity. Source omissions and unnamed mentions still require a separate audit.')

@@ -1,0 +1,9 @@
+{
+  "name": "@islamic-lives/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 4387 --bind 127.0.0.1 --directory ../../public",
+    "build": "cd ../.. && sh scripts/audit.sh"
+  }
+}

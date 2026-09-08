@@ -98,9 +98,38 @@ sunnah_by_prophet={
  'yahya':(3207,'The Night Journey report names Yahya among the prophets Muhammad meets.'),
  'isa':(3207,'The Night Journey report names Isa among the prophets Muhammad meets.'),
 }
+key_passages={
+ 'adam':['2:30-39','7:11-27','20:115-123'],
+ 'idris':['19:56-57','21:85-86'],
+ 'nuh':['7:59-64','11:25-49','23:23-30','26:105-122','71:1-28'],
+ 'hud':['7:65-72','11:50-60','26:123-140','46:21-26'],
+ 'salih':['7:73-79','11:61-68','26:141-159','27:45-53','91:11-15'],
+ 'ibrahim':['2:124-141','6:74-83','14:35-41','19:41-50','21:51-73','26:69-89','37:83-113','60:4-6'],
+ 'lut':['7:80-84','11:77-83','15:57-77','26:160-175','27:54-58','29:28-35'],
+ 'ismail':['2:125-129','19:54-55','38:48'],
+ 'ishaq':['6:84','11:69-73','15:51-60','19:49-50','37:112-113'],
+ 'yaqub':['2:132-133','6:84','12:4-101','19:49-50'],
+ 'yusuf':['6:84','12:4-101','40:34'],
+ 'ayyub':['4:163','6:84','21:83-84','38:41-44'],
+ 'shuayb':['7:85-93','11:84-95','26:176-191','29:36-37'],
+ 'musa':['2:49-61','7:103-160','10:75-93','18:60-82','20:9-98','26:10-68','28:3-46'],
+ 'harun':['7:142-151','19:53','20:29-36','20:83-94'],
+ 'dhul-kifl':['21:85-86','38:48'],
+ 'dawud':['2:251','4:163','17:55','21:78-80','34:10-11','38:17-26'],
+ 'sulayman':['2:102','21:78-82','27:15-44','34:12-14','38:30-40'],
+ 'ilyas':['6:85','37:123-132'],
+ 'alyasa':['6:86','38:48'],
+ 'yunus':['4:163','6:86','10:98','21:87-88','37:139-148','68:48-50'],
+ 'zakariyya':['3:37-41','6:85','19:2-15','21:89-90'],
+ 'yahya':['3:39','6:85','19:7-15'],
+ 'isa':['2:87','2:253','3:45-59','4:157-171','5:110-120','19:16-36','43:57-65','61:6','61:14'],
+ 'muhammad':['3:144','33:40','47:2','48:29','53:1-18','96:1-5'],
+}
 for p in people:
  if p['category']!='Prophets': continue
  p['quranReferences']=[i for i,s in enumerate(p['sources']) if s['kind']=='Qur’anic account']
+ p['keyQuranPassages']=key_passages[p['id']]
+ p['factCheck']={'status':'Source-alignment checked','checked':'2026-09-08','scope':'Profile wording checked against its cited Qur’an and verified Sahih al-Bukhari references. This is not a claim of exhaustive tafsir or hadith coverage and is not a substitute for qualified scholarly review.'}
  if p['id']=='muhammad':
   p['sunnahEvidence']={'status':'Referenced','text':'The profile includes the Sahih al-Bukhari report of the beginning of revelation.','sources':[0]}
  elif p['id'] in sunnah_by_prophet:

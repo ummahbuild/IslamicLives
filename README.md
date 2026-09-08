@@ -2,6 +2,14 @@
 
 An original implementation of the When → Where → Life → Story discovery pattern of https://anyhumanever.com, using named people and cited accounts.
 
+## Monorepo workspaces
+
+- `apps/web`: development and build wrapper for the existing static production site.
+- `apps/mobile`: Expo SDK 57 mobile application with the same people, references, search, discovery, sharing, chronology, and methodology goals.
+- `packages/content`: generated shared data; never edit its JSON by hand.
+
+Run `npm run content:build` before web or mobile release builds so both apps consume the same evidence dataset.
+
 ## Current state
 
 Working edition, **not an exhaustive historical database**. The original user scope has expanded to every person mentioned in the Qur’an, hadith, and historical books, plus how Islam spread through 2026. Completion must not be claimed until the corpus is bounded, indexed, reviewed, and its coverage verified.
@@ -9,6 +17,7 @@ Working edition, **not an exhaustive historical database**. The original user sc
 - 63 people, including the 25 traditionally listed Qur’anic prophets and an initial four-profile Islamic scholars collection.
 - Source references at the paragraph level and uncertainty notes.
 - Search, category filters, era selection, random discovery, shareable story URLs.
+- Crawlable Explore, Prophets, Scholars, People, Sources, and Atlas entry pages with a custom 404 fallback.
 - Three.js globe with 16 chapters, play/pause, timeline scrubbing, region selection, and sourced approximate Muslim population snapshots.
 - Static site with vendored Three.js r180 browser modules; no package install, API keys, accounts, or database server needed.
 
@@ -32,6 +41,8 @@ The hand-reviewed seed is in `scripts/build_data.py`. It generates `public/data/
 `scripts/build_pages.py` generates crawlable profile URLs, JSON-LD metadata, `sitemap.xml`, `robots.txt`, and `llms.txt`. Run it after changing the people seed.
 
 The repository-local `skills/islamic-lives-editorial` skill defines the evidence and review workflow for future biography work. The current product audit and roadmap live in `docs/audits/APP_AUDIT.md` and `docs/plans/DEVELOPMENT_PLAN.md`.
+
+The 25-profile source-alignment review and its limits are recorded in `research/PROPHET-FACT-CHECK.md`.
 
 ## Deployment
 
