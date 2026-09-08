@@ -44,10 +44,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3326",
+          "url": "https://sunnah.com/bukhari:3326",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari reports the creation of Adam and the greeting of peace.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "idris",
@@ -90,10 +108,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3207",
+          "url": "https://sunnah.com/bukhari:3207",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "The Night Journey report names Idris among the prophets Muhammad meets.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "nuh",
@@ -136,10 +172,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3340",
+          "url": "https://sunnah.com/bukhari:3340",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "The intercession report names Nuh and describes his mission to his people.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "hud",
@@ -185,7 +239,16 @@
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Research gap",
+        "text": "No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.",
+        "sources": []
+      }
     },
     {
       "id": "salih",
@@ -228,10 +291,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3378",
+          "url": "https://sunnah.com/bukhari:3378",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari preserves instructions connected with the dwellings of Thamud.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "ibrahim",
@@ -274,10 +355,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3358",
+          "url": "https://sunnah.com/bukhari:3358",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari transmits a report about Ibrahim; it is presented as a report, not independent chronology.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "lut",
@@ -320,10 +419,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3372",
+          "url": "https://sunnah.com/bukhari:3372",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari includes a report concerning Lut.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "ismail",
@@ -366,10 +483,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3364",
+          "url": "https://sunnah.com/bukhari:3364",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari transmits an account involving Ibrahim, Ismail, and the sanctuary.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "ishaq",
@@ -415,7 +550,16 @@
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Research gap",
+        "text": "No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.",
+        "sources": []
+      }
     },
     {
       "id": "yaqub",
@@ -461,7 +605,16 @@
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Research gap",
+        "text": "No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.",
+        "sources": []
+      }
     },
     {
       "id": "yusuf",
@@ -518,6 +671,13 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3207",
+          "url": "https://sunnah.com/bukhari:3207",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
@@ -527,6 +687,18 @@
         "text": "Yusuf welcomes his parents to Egypt in the Qur’anic account. The region is named even though the verse does not establish a birth date or exact city.",
         "sources": [
           2
+        ]
+      },
+      "quranReferences": [
+        0,
+        1,
+        2
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "The Night Journey report names Yusuf among the prophets Muhammad meets.",
+        "sources": [
+          3
         ]
       }
     },
@@ -571,10 +743,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3391",
+          "url": "https://sunnah.com/bukhari:3391",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari transmits a report about Ayyub receiving divine blessing.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "shuayb",
@@ -620,7 +810,16 @@
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Research gap",
+        "text": "No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.",
+        "sources": []
+      }
     },
     {
       "id": "musa",
@@ -684,6 +883,13 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3207",
+          "url": "https://sunnah.com/bukhari:3207",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
@@ -694,6 +900,19 @@
         "sources": [
           2,
           3
+        ]
+      },
+      "quranReferences": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "The Night Journey report names Musa and includes his advice concerning the daily prayers.",
+        "sources": [
+          4
         ]
       }
     },
@@ -752,6 +971,13 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3207",
+          "url": "https://sunnah.com/bukhari:3207",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
@@ -761,6 +987,18 @@
         "text": "Egypt is explicitly named in the instruction addressed to Musa and his brother. This is an associated region, not a verified birthplace.",
         "sources": [
           2
+        ]
+      },
+      "quranReferences": [
+        0,
+        1,
+        2
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "The Night Journey report names Harun among the prophets Muhammad meets.",
+        "sources": [
+          3
         ]
       }
     },
@@ -808,7 +1046,16 @@
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted. Commonly included in the traditional list of 25 prophets; commentators differ over whether these verses establish his prophethood. Identification with Ezekiel is not asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Research gap",
+        "text": "No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.",
+        "sources": []
+      }
     },
     {
       "id": "dawud",
@@ -851,10 +1098,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 1131",
+          "url": "https://sunnah.com/bukhari:1131",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari describes the prayer and fasting associated with Dawud.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "sulayman",
@@ -897,10 +1162,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3424",
+          "url": "https://sunnah.com/bukhari:3424",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari transmits a report about Sulayman and the importance of saying “if Allah wills.”",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "ilyas",
@@ -946,7 +1229,16 @@
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Research gap",
+        "text": "No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.",
+        "sources": []
+      }
     },
     {
       "id": "alyasa",
@@ -992,7 +1284,16 @@
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Research gap",
+        "text": "No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.",
+        "sources": []
+      }
     },
     {
       "id": "yunus",
@@ -1035,10 +1336,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3416",
+          "url": "https://sunnah.com/bukhari:3416",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "Sahih al-Bukhari warns against claiming superiority over Yunus ibn Matta.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "zakariyya",
@@ -1084,7 +1403,16 @@
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Research gap",
+        "text": "No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.",
+        "sources": []
+      }
     },
     {
       "id": "yahya",
@@ -1127,10 +1455,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3207",
+          "url": "https://sunnah.com/bukhari:3207",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "The Night Journey report names Yahya among the prophets Muhammad meets.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "isa",
@@ -1173,10 +1519,28 @@
           "kind": "Qur’anic account",
           "note": "Verse reference; story text is an original paraphrase, not a translation.",
           "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3207",
+          "url": "https://sunnah.com/bukhari:3207",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
         }
       ],
       "uncertainty": "The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        0,
+        1
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "The Night Journey report names Isa among the prophets Muhammad meets.",
+        "sources": [
+          2
+        ]
+      }
     },
     {
       "id": "muhammad",
@@ -1233,7 +1597,17 @@
         }
       ],
       "uncertainty": "The birth year is approximate. Religious claims are identified as Qur’anic or hadith accounts.",
-      "reviewed": "2026-09-08"
+      "reviewed": "2026-09-08",
+      "quranReferences": [
+        2
+      ],
+      "sunnahEvidence": {
+        "status": "Referenced",
+        "text": "The profile includes the Sahih al-Bukhari report of the beginning of revelation.",
+        "sources": [
+          0
+        ]
+      }
     },
     {
       "id": "maryam",
@@ -1945,6 +2319,262 @@
         }
       ],
       "uncertainty": "Included in the modern history of people from the Muslim world; scientific achievement is not used as evidence for a theological claim.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "abu-hanifa",
+      "name": "Abu Hanifa",
+      "arabic": "أبو حنيفة",
+      "category": "Islamic scholars",
+      "era": "Early Islamic scholarship",
+      "date": "c. 699–767 CE",
+      "year": 699,
+      "place": "Kufa and Baghdad",
+      "coordinates": [
+        32.0,
+        44.33
+      ],
+      "role": "Jurisprudence and legal reasoning",
+      "chapters": [
+        {
+          "title": "A jurist in Kufa",
+          "text": "Abu Hanifa, also known as al-Nu‘man ibn Thabit, became one of the most influential early Muslim jurists. The Hanafi school bears his name, though its later form also reflects the work of his students.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A legacy developed by students",
+          "text": "His legal thought was transmitted and systematised especially through students including Abu Yusuf and Muhammad al-Shaybani. Reports about his ancestry and some details of his life conflict.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Qur’an and Sunnah as a shared foundation",
+          "text": "The Qur’an directs people who do not know to ask those who possess knowledge. A report in Sahih al-Bukhari says that when Allah intends good for someone, He grants understanding of religion. These references explain the collection’s theme; they are not evidence for the individual biography.",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Abu Hanifa — Encyclopaedia Iranica",
+          "url": "https://www.iranicaonline.org/articles/abu-hanifa-noman-b/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 16:43",
+          "url": "https://quran.com/16/43",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 71",
+          "url": "https://sunnah.com/bukhari:71",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; cited for the virtue of understanding religion, not as biographical evidence.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The exact birth date, ancestry, and attribution of some works remain disputed. This entry describes his historical influence without declaring one legal school superior.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "malik-ibn-anas",
+      "name": "Malik ibn Anas",
+      "arabic": "مالك بن أنس",
+      "category": "Islamic scholars",
+      "era": "Early Islamic scholarship",
+      "date": "c. 711–795 CE",
+      "year": 711,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Hadith and the practice of Medina",
+      "chapters": [
+        {
+          "title": "Teaching in Medina",
+          "text": "Malik ibn Anas spent his scholarly life in Medina and became a leading authority in law and hadith. The Maliki school takes its name from him.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The Muwatta",
+          "text": "Al-Muwatta brings together transmitted reports, legal opinions, and the practice associated with Medina. Its recensions and role in later Maliki law require more detail than a short profile can provide.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Qur’an and Sunnah as a shared foundation",
+          "text": "The Qur’an directs people who do not know to ask those who possess knowledge. A report in Sahih al-Bukhari says that when Allah intends good for someone, He grants understanding of religion. These references explain the collection’s theme; they are not evidence for the individual biography.",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Malik ibn Anas — Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Malik-ibn-Anas",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 16:43",
+          "url": "https://quran.com/16/43",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 71",
+          "url": "https://sunnah.com/bukhari:71",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; cited for the virtue of understanding religion, not as biographical evidence.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Sources give different birth years. The relationship between Malik’s own teaching and the later Maliki school should not be collapsed into a single fixed method.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "al-shafii",
+      "name": "Al-Shafi‘i",
+      "arabic": "الشافعي",
+      "category": "Islamic scholars",
+      "era": "Early Islamic scholarship",
+      "date": "767–820 CE",
+      "year": 767,
+      "place": "Mecca, Baghdad, and Cairo",
+      "coordinates": [
+        30.04,
+        31.24
+      ],
+      "role": "Hadith, law, and legal theory",
+      "chapters": [
+        {
+          "title": "A travelling scholar",
+          "text": "Muhammad ibn Idris al-Shafi‘i studied in several centres of learning, including Medina, Baghdad, and Egypt. The Shafi‘i school is named for him.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Arguments about legal proof",
+          "text": "His writings, especially al-Risala in its surviving form, are central to the history of Islamic legal theory and to debates about the authority of Qur’an, Sunnah, consensus, and analogy.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Qur’an and Sunnah as a shared foundation",
+          "text": "The Qur’an directs people who do not know to ask those who possess knowledge. A report in Sahih al-Bukhari says that when Allah intends good for someone, He grants understanding of religion. These references explain the collection’s theme; they are not evidence for the individual biography.",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Al-Shafi‘i — Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/al-Shafii",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 16:43",
+          "url": "https://quran.com/16/43",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 71",
+          "url": "https://sunnah.com/bukhari:71",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; cited for the virtue of understanding religion, not as biographical evidence.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Accounts of his education and the development of his legal thought come through later biographical traditions. “Founder of legal theory” is an oversimplification, so it is not claimed here.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ahmad-ibn-hanbal",
+      "name": "Ahmad ibn Hanbal",
+      "arabic": "أحمد بن حنبل",
+      "category": "Islamic scholars",
+      "era": "Early Islamic scholarship",
+      "date": "780–855 CE",
+      "year": 780,
+      "place": "Baghdad",
+      "coordinates": [
+        33.31,
+        44.37
+      ],
+      "role": "Hadith, law, and theological witness",
+      "chapters": [
+        {
+          "title": "Collecting transmitted reports",
+          "text": "Ahmad ibn Hanbal travelled in pursuit of hadith and compiled the Musnad, a large collection organised primarily by transmitting Companion.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The mihna",
+          "text": "During the Abbasid inquisition known as the mihna, he refused to affirm the imposed doctrine that the Qur’an was created and was imprisoned and flogged. The Hanbali legal school later took his name.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Qur’an and Sunnah as a shared foundation",
+          "text": "The Qur’an directs people who do not know to ask those who possess knowledge. A report in Sahih al-Bukhari says that when Allah intends good for someone, He grants understanding of religion. These references explain the collection’s theme; they are not evidence for the individual biography.",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ahmad ibn Hanbal — Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Ahmad-ibn-Hanbal",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 16:43",
+          "url": "https://quran.com/16/43",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 71",
+          "url": "https://sunnah.com/bukhari:71",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; cited for the virtue of understanding religion, not as biographical evidence.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Later traditions shaped accounts of his life and authority. This concise entry does not adjudicate later theological or legal disputes.",
       "reviewed": "2026-09-08"
     },
     {

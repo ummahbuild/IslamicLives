@@ -6,7 +6,7 @@ An original implementation of the When → Where → Life → Story discovery pa
 
 Working edition, **not an exhaustive historical database**. The original user scope has expanded to every person mentioned in the Qur’an, hadith, and historical books, plus how Islam spread through 2026. Completion must not be claimed until the corpus is bounded, indexed, reviewed, and its coverage verified.
 
-- 59 people, including the 25 traditionally listed Qur’anic prophets.
+- 63 people, including the 25 traditionally listed Qur’anic prophets and an initial four-profile Islamic scholars collection.
 - Source references at the paragraph level and uncertainty notes.
 - Search, category filters, era selection, random discovery, shareable story URLs.
 - Three.js globe with 16 chapters, play/pause, timeline scrubbing, region selection, and sourced approximate Muslim population snapshots.
@@ -16,11 +16,22 @@ Working edition, **not an exhaustive historical database**. The original user sc
 
 ```sh
 python3 scripts/build_data.py
+python3 scripts/build_pages.py
 python3 scripts/validate.py
 python3 -m http.server 4387 --bind 127.0.0.1 --directory public
 ```
 
+For the complete local generation and verification harness, run:
+
+```sh
+scripts/audit.sh
+```
+
 The hand-reviewed seed is in `scripts/build_data.py`. It generates `public/data/people.json`. Edit the seed, not its output. Coverage and spread chronology have their own JSON files.
+
+`scripts/build_pages.py` generates crawlable profile URLs, JSON-LD metadata, `sitemap.xml`, `robots.txt`, and `llms.txt`. Run it after changing the people seed.
+
+The repository-local `skills/islamic-lives-editorial` skill defines the evidence and review workflow for future biography work. The current product audit and roadmap live in `docs/audits/APP_AUDIT.md` and `docs/plans/DEVELOPMENT_PLAN.md`.
 
 ## Deployment
 

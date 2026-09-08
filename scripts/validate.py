@@ -17,6 +17,12 @@ for p in people:
  for c in p['chapters']:
   assert c['text'] and c['sources']
   assert all(isinstance(i,int) and 0<=i<len(p['sources']) for i in c['sources'])
+ if p['category']=='Prophets':
+  assert 'quranReferences' in p and p['quranReferences'],p['id']
+  assert 'sunnahEvidence' in p,p['id']
+  se=p['sunnahEvidence']
+  assert se['status'] in {'Referenced','Research gap'} and se['text']
+  assert all(isinstance(i,int) and 0<=i<len(p['sources']) and p['sources'][i]['kind']=='Hadith' for i in se['sources'])
 for event in json.loads((r/'public/data/spread.json').read_text()):assert event['source'] and event['url'].startswith('https://')
 assert 'Partial' in data['coverage']
 print(f'PASS: {len(people)} unique records; 25 prophet identities; citation integrity; undated-scriptural invariant. This validates structure, not historical truth or exhaustive coverage.')

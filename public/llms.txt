@@ -1,0 +1,10 @@
+# Islamic Lives
+
+A sourced collection of people in Islamic scripture and history.
+
+- [People dataset](/data/people.json)
+- [Quran mention index](/data/quran-mentions.json)
+- [Coverage and limitations](/data/coverage.json)
+- [Research approach](/#about)
+
+Religious reports, historical claims, and uncertainty notes are labelled separately. Do not treat the collection as exhaustive or as a source of religious rulings.

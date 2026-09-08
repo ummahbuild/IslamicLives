@@ -59,9 +59,55 @@ for id,name,ar,dates,place,role,chapters,src,notes,year,coords in [
  ('sinan','Mimar Sinan','معمار سنان','16th century CE','Edirne','Architecture and public life',[('Building for a city','Sinan designed the Selimiye Mosque complex in Edirne for Selim II. Its great dome and four minarets remain defining features of the city’s skyline.',[0]),('Beyond a prayer hall','The complex included educational and commercial spaces alongside the mosque. It illustrates the Ottoman külliye: a group of buildings serving religious and social functions together.',[0])],source('Selimiye Mosque and its Social Complex — UNESCO','https://whc.unesco.org/en/list/1366/'),'This entry focuses on a surviving, documented work rather than reconstructing uncertain details of his early life.',None,[41.68,26.56]),
  ('ahmed-zewail','Ahmed Zewail','أحمد زويل','1946–2016 CE','Pasadena, California','Seeing chemical change',[('A new timescale','Ahmed Zewail’s research made it possible to study atomic motion during chemical reactions on femtosecond timescales. This work helped establish femtochemistry.',[0]),('Science in a connected world','A Caltech professor, he received the 1999 Nobel Prize in Chemistry. His later work included four-dimensional electron microscopy. He died in 2016.',[0])],source('Ahmed Zewail, 1946–2016 — Caltech','https://www.caltech.edu/about/news/ahmed-zewail-1946-2016-51594'),'Included in the modern history of people from the Muslim world; scientific achievement is not used as evidence for a theological claim.',1946,[34.14,-118.14])]:
  add(id,name,ar,'Historical people','Modern world' if id=='ahmed-zewail' else 'Ottoman world' if id=='sinan' else 'Medieval worlds',dates,place,role,chapters,[src]+([source('Ibn Battuta — translated selections, Fordham','https://sourcebooks.web.fordham.edu/source/1354-ibnbattuta.asp','Historical primary text')] if id=='ibn-battuta' else []),notes,year,coords)
+
+# A deliberately bounded first scholar collection. Biographical evidence and the
+# scriptural foundations of seeking knowledge are kept as separate source types.
+q_knowledge=q('16:43')
+hadith_understanding=source('Sahih al-Bukhari 71','https://sunnah.com/bukhari:71','Hadith','Sahih collection in Sunni tradition; cited for the virtue of understanding religion, not as biographical evidence.')
+for id,name,ar,dates,place,role,chapters,bio,notes,year,coords in [
+ ('abu-hanifa','Abu Hanifa','أبو حنيفة','c. 699–767 CE','Kufa and Baghdad','Jurisprudence and legal reasoning',[('A jurist in Kufa','Abu Hanifa, also known as al-Nu‘man ibn Thabit, became one of the most influential early Muslim jurists. The Hanafi school bears his name, though its later form also reflects the work of his students.',[0]),('A legacy developed by students','His legal thought was transmitted and systematised especially through students including Abu Yusuf and Muhammad al-Shaybani. Reports about his ancestry and some details of his life conflict.',[0])],source('Abu Hanifa — Encyclopaedia Iranica','https://www.iranicaonline.org/articles/abu-hanifa-noman-b/'), 'The exact birth date, ancestry, and attribution of some works remain disputed. This entry describes his historical influence without declaring one legal school superior.',699,[32.0,44.33]),
+ ('malik-ibn-anas','Malik ibn Anas','مالك بن أنس','c. 711–795 CE','Medina','Hadith and the practice of Medina',[('Teaching in Medina','Malik ibn Anas spent his scholarly life in Medina and became a leading authority in law and hadith. The Maliki school takes its name from him.',[0]),('The Muwatta','Al-Muwatta brings together transmitted reports, legal opinions, and the practice associated with Medina. Its recensions and role in later Maliki law require more detail than a short profile can provide.',[0])],source('Malik ibn Anas — Encyclopaedia Britannica','https://www.britannica.com/biography/Malik-ibn-Anas'), 'Sources give different birth years. The relationship between Malik’s own teaching and the later Maliki school should not be collapsed into a single fixed method.',711,[24.47,39.61]),
+ ('al-shafii','Al-Shafi‘i','الشافعي','767–820 CE','Mecca, Baghdad, and Cairo','Hadith, law, and legal theory',[('A travelling scholar','Muhammad ibn Idris al-Shafi‘i studied in several centres of learning, including Medina, Baghdad, and Egypt. The Shafi‘i school is named for him.',[0]),('Arguments about legal proof','His writings, especially al-Risala in its surviving form, are central to the history of Islamic legal theory and to debates about the authority of Qur’an, Sunnah, consensus, and analogy.',[0])],source('Al-Shafi‘i — Encyclopaedia Britannica','https://www.britannica.com/biography/al-Shafii'), 'Accounts of his education and the development of his legal thought come through later biographical traditions. “Founder of legal theory” is an oversimplification, so it is not claimed here.',767,[30.04,31.24]),
+ ('ahmad-ibn-hanbal','Ahmad ibn Hanbal','أحمد بن حنبل','780–855 CE','Baghdad','Hadith, law, and theological witness',[('Collecting transmitted reports','Ahmad ibn Hanbal travelled in pursuit of hadith and compiled the Musnad, a large collection organised primarily by transmitting Companion.',[0]),('The mihna','During the Abbasid inquisition known as the mihna, he refused to affirm the imposed doctrine that the Qur’an was created and was imprisoned and flogged. The Hanbali legal school later took his name.',[0])],source('Ahmad ibn Hanbal — Encyclopaedia Britannica','https://www.britannica.com/biography/Ahmad-ibn-Hanbal'), 'Later traditions shaped accounts of his life and authority. This concise entry does not adjudicate later theological or legal disputes.',780,[33.31,44.37])
+]:
+ add(id,name,ar,'Islamic scholars','Early Islamic scholarship',dates,place,role,
+  chapters+[('Qur’an and Sunnah as a shared foundation','The Qur’an directs people who do not know to ask those who possess knowledge. A report in Sahih al-Bukhari says that when Allah intends good for someone, He grants understanding of religion. These references explain the collection’s theme; they are not evidence for the individual biography.',[1,2])],
+  [bio,q_knowledge,hadith_understanding],notes,year,coords)
 from quran_people import extend
 extend(add,q)
 from place_evidence import apply
 apply(people,q)
+
+# Sunnah coverage is explicit for every prophet. A missing specific report is
+# recorded as a research gap rather than silently filled with a weak narration.
+sunnah_by_prophet={
+ 'adam':(3326,'Sahih al-Bukhari reports the creation of Adam and the greeting of peace.'),
+ 'idris':(3207,'The Night Journey report names Idris among the prophets Muhammad meets.'),
+ 'nuh':(3340,'The intercession report names Nuh and describes his mission to his people.'),
+ 'salih':(3378,'Sahih al-Bukhari preserves instructions connected with the dwellings of Thamud.'),
+ 'ibrahim':(3358,'Sahih al-Bukhari transmits a report about Ibrahim; it is presented as a report, not independent chronology.'),
+ 'lut':(3372,'Sahih al-Bukhari includes a report concerning Lut.'),
+ 'ismail':(3364,'Sahih al-Bukhari transmits an account involving Ibrahim, Ismail, and the sanctuary.'),
+ 'yusuf':(3207,'The Night Journey report names Yusuf among the prophets Muhammad meets.'),
+ 'ayyub':(3391,'Sahih al-Bukhari transmits a report about Ayyub receiving divine blessing.'),
+ 'musa':(3207,'The Night Journey report names Musa and includes his advice concerning the daily prayers.'),
+ 'harun':(3207,'The Night Journey report names Harun among the prophets Muhammad meets.'),
+ 'dawud':(1131,'Sahih al-Bukhari describes the prayer and fasting associated with Dawud.'),
+ 'sulayman':(3424,'Sahih al-Bukhari transmits a report about Sulayman and the importance of saying “if Allah wills.”'),
+ 'yunus':(3416,'Sahih al-Bukhari warns against claiming superiority over Yunus ibn Matta.'),
+ 'yahya':(3207,'The Night Journey report names Yahya among the prophets Muhammad meets.'),
+ 'isa':(3207,'The Night Journey report names Isa among the prophets Muhammad meets.'),
+}
+for p in people:
+ if p['category']!='Prophets': continue
+ p['quranReferences']=[i for i,s in enumerate(p['sources']) if s['kind']=='Qur’anic account']
+ if p['id']=='muhammad':
+  p['sunnahEvidence']={'status':'Referenced','text':'The profile includes the Sahih al-Bukhari report of the beginning of revelation.','sources':[0]}
+ elif p['id'] in sunnah_by_prophet:
+  number,text=sunnah_by_prophet[p['id']]
+  p['sources'].append(bukh(number))
+  p['sunnahEvidence']={'status':'Referenced','text':text,'sources':[len(p['sources'])-1]}
+ else:
+  p['sunnahEvidence']={'status':'Research gap','text':'No prophet-specific report from the project’s currently verified Sahih al-Bukhari set is attached yet. This does not mean that no report exists; weaker or unverified material is not substituted.','sources':[]}
 (ROOT/'public/data/people.json').write_text(json.dumps({'version':1,'reviewed':'2026-09-08','coverage':'Partial collection; exhaustive corpus indexing is in progress.','people':people},ensure_ascii=False,indent=2)+'\n')
 print(f'Wrote {len(people)} people, {sum(p["category"]=="Prophets" for p in people)} prophet entries')

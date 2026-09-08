@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://islamic-lives.pages.dev/sitemap.xml
