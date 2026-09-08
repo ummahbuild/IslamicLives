@@ -36,4 +36,7 @@ for e in mentions:
  assert e['pages'] and e['source'].startswith('https://corpus.quran.com/')
 assert next(e for e in mentions if e['personId']=='musa')['tokenCount']==136
 assert next(e for e in mentions if e['personId']=='adam')['tokenCount']==25
+generated=r/'public/prophets/index.html'
+assert generated.exists() and all(f'/prophets/{pid}/' in generated.read_text() for pid in expected)
+assert (r/'public/explore/index.html').exists()
 print(f'PASS: {len(mentions)} name-index records and source location integrity. Source omissions and unnamed mentions still require a separate audit.')
