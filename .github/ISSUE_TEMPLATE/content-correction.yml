@@ -1,0 +1,54 @@
+name: Content correction
+description: Report a sourced factual, citation, translation, or uncertainty problem.
+title: "[Content]: "
+labels: [content, needs-review]
+body:
+  - type: input
+    id: profile
+    attributes:
+      label: Profile or page
+      placeholder: Fatimah bint Muhammad or /people/fatimah/
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current wording
+      description: Quote only the shortest passage needed to identify the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: Explain what should change and what uncertainty must remain visible.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Direct sources
+      description: Include exact Qur’an passages, hadith report numbers, editions, or academic links.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence class
+      options:
+        - Qur’anic account
+        - Hadith
+        - Historical primary text
+        - Historical scholarship
+        - Multiple evidence classes
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I distinguished sourced fact from interpretation or later tradition.
+          required: true
+        - label: I am not claiming this makes the wider collection exhaustive.
+          required: true

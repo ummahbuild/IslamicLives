@@ -1,77 +1,115 @@
 # Islamic Lives
 
-An original implementation of the When → Where → Life → Story discovery pattern of https://anyhumanever.com, using named people and cited accounts.
+Islamic Lives is an evidence-first web and Expo experience for exploring named people in the Qur’an, Sunnah, and Islamic history through **When → Where → Life → Story**.
 
-## Monorepo workspaces
+The current working edition contains 81 profiles, including the 25 prophets in the commonly taught list, other Qur’anic people, Companions, scholars, scientists, travellers, rulers, and builders. It is a growing research collection—not an exhaustive religious or historical database.
 
-- `apps/web`: development and build wrapper for the existing static production site.
-- `apps/mobile`: Expo SDK 57 mobile application with the same people, references, search, discovery, sharing, chronology, and methodology goals.
-- `packages/content`: generated shared data; never edit its JSON by hand.
+## What is included
 
-Run `npm run content:build` before web or mobile release builds so both apps consume the same evidence dataset.
+- Source-linked profiles with visible uncertainty notes.
+- Qur’anic passages and separately labelled transmitted hadith reports.
+- Search, category filters, random discovery, Saved Lives, and shareable URLs.
+- A Three.js atlas with sourced chapters, illustrative extents, camera tours, and 0.5×/1×/2× playback.
+- Crawlable pages with structured metadata, sitemap, `robots.txt`, and `llms.txt`.
+- An Expo SDK 57 app using the same generated content package as the web app.
+- A repository-local editorial skill and validation harness.
 
-## Current state
+## Repository structure
 
-Working edition, **not an exhaustive historical database**. The original user scope has expanded to every person mentioned in the Qur’an, hadith, and historical books, plus how Islam spread through 2026. Completion must not be claimed until the corpus is bounded, indexed, reviewed, and its coverage verified.
-
-- 81 people, including the 25 traditionally listed Qur’anic prophets, sourced Companion and Qur’anic-person profiles, and seven academic/scholar profiles.
-- Source references at the paragraph level and uncertainty notes.
-- Search, category filters, era selection, random discovery, shareable story URLs.
-- Crawlable Explore, Prophets, Scholars, People, Sources, and Atlas entry pages with a custom 404 fallback.
-- Three.js globe with 16 chapters, play/pause, timeline scrubbing, region selection, and sourced approximate Muslim population snapshots.
-- Static site with vendored Three.js r180 browser modules; no package install, API keys, accounts, or database server needed.
-
-## Run and verify
-
-```sh
-python3 scripts/build_data.py
-python3 scripts/build_pages.py
-python3 scripts/validate.py
-python3 -m http.server 4387 --bind 127.0.0.1 --directory public
+```text
+IslamicLives/
+├── apps/
+│   ├── web/                 Static web development/build wrapper
+│   └── mobile/              Expo application and native assets
+├── packages/content/        Generated data shared by web and Expo
+├── public/                  Deployable static website and generated routes
+│   ├── data/                People, coverage, mentions, and atlas JSON
+│   ├── people/              Generated non-prophet profile routes
+│   ├── prophets/            Generated prophet profile routes
+│   └── vendor/              Pinned Three.js and map dependencies
+├── scripts/                 Generators, audits, tests, and release checks
+├── skills/                  Repository-local editorial workflow
+├── research/                Scope, verification, and fact-check records
+├── docs/                    Audits, plans, and project documentation
+└── .github/                 CI and contributor templates
 ```
 
-For the complete local generation and verification harness, run:
+Generated JSON and profile HTML must not be edited by hand. Make profile changes in `scripts/build_data.py`, atlas changes in `scripts/build_atlas.py`, then rebuild.
+
+## Local development
+
+Requirements: Node.js 24 (see `.nvmrc`), npm, and Python 3.
 
 ```sh
-scripts/audit.sh
+npm install
+npm run ci
+npm run web
 ```
 
-The hand-reviewed seed is in `scripts/build_data.py`. It generates `public/data/people.json`. Edit the seed, not its output. Coverage and spread chronology have their own JSON files.
+Run Expo separately with:
 
-`scripts/build_pages.py` generates crawlable profile URLs, JSON-LD metadata, `sitemap.xml`, `robots.txt`, and `llms.txt`. Run it after changing the people seed.
+```sh
+npm run mobile
+```
 
-The repository-local `skills/islamic-lives-editorial` skill defines the evidence and review workflow for future biography work. The current product audit and roadmap live in `docs/audits/APP_AUDIT.md` and `docs/plans/DEVELOPMENT_PLAN.md`.
+## Validation commands
 
-The 25-profile source-alignment review and its limits are recorded in `research/PROPHET-FACT-CHECK.md`.
+| Command | Purpose |
+| --- | --- |
+| `npm run content:build` | Regenerate profile pages and synchronize shared content |
+| `npm run audit` | Validate data, citations, links, JavaScript, mentions, and atlas models |
+| `npm run production:check` | Verify metadata, social artwork, native assets, and release contracts |
+| `npm run mobile:check` | Export the Expo web target as a compilation check |
+| `npm run ci` | Run the complete local release gate |
+
+Passing validation proves structural and product invariants. It does not prove theological correctness, exhaustive coverage, or independent historical truth.
+
+## Editorial standards
+
+- Do not invent dates, locations, dialogue, motives, appearance, relationships, or narrative detail.
+- Separate Qur’anic text, hadith, historical primary material, and modern scholarship.
+- Link every material claim to a supporting source.
+- Preserve variant dates, disputed identities, and interpretive uncertainty.
+- Treat coordinates as schematic associated-place locators, never precise birthplace claims.
+- Never label a profile “scholar reviewed” without an identified qualified reviewer and recorded scope.
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md), the [editorial workflow](skills/islamic-lives-editorial/SKILL.md), and [profile review checklist](skills/islamic-lives-editorial/references/review-checklist.md) before changing content.
+
+## Documentation
+
+- [Documentation index](docs/README.md)
+- [Development plan](docs/plans/DEVELOPMENT_PLAN.md)
+- [Web/mobile parity](docs/plans/FEATURE_PARITY.md)
+- [Repository TODO](TODO.md)
+- [Application audit](docs/audits/APP_AUDIT.md)
+- [Research scope](research/SCOPE.md)
+- [Prophet fact-check](research/PROPHET-FACT-CHECK.md)
+- [Requested additions fact-check](research/ADDITIONS-FACT-CHECK.md)
+- [Verification record](research/VERIFICATION.md)
+- [Security policy](docs/SECURITY.md)
+
+## Current limits
+
+- The Qur’anic name index does not cover every pronoun, title, alternate name, or unnamed figure.
+- Hadith coverage is not corpus-complete.
+- Most profiles lack documented review by a qualified Islamic scholar.
+- Native iPhone Safari, VoiceOver, TalkBack, TestFlight, and Play internal testing remain.
+- Atlas extents and routes are illustrative—not borders, ownership, conversion percentages, or exact paths.
 
 ## Deployment
 
-Cloudflare Pages serves only `public/`. Deployment uses the existing globally installed Wrangler CLI; no dependency installation is required.
+The static web deployment serves `public/`. Production publication remains owner-controlled.
 
 ```sh
 wrangler pages deploy public --project-name islamic-lives --branch main
 ```
 
-## Editorial boundaries
+Do not deploy contributor branches without maintainer approval.
 
-Qur’an, hadith, historical primary texts, and modern scholarship are distinct evidence classes. An event in a religious report is labelled accordingly. No fictional lives, dialogue, internal thoughts, portraits, precise dates, or unsupported locations are generated. Coordinates are schematic associated-place locators.
+## Contributing and licence
 
-Dates marked “not established” must remain null in numeric fields. Inclusion is not endorsement of a person or a judgement about their faith. Sunni and Shia accounts must be attributed, not silently merged. Dhul-Kifl’s prophetic status is flagged as a matter of interpretation. Zewail is included in the modern history of the Muslim world; his scientific work is not a theological claim.
+Contributions are welcome, especially source corrections, uncertainty improvements, accessibility fixes, tests, and bounded biographies. See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-## Next research requirements
+No open-source licence has been declared yet. Until the maintainers add one, normal copyright restrictions apply even though contributions are accepted.
 
-See `research/SCOPE.md`. No package installation or dependency upgrade is authorized by this repository.
-
-## Qur’anic reference index
-
-`public/data/quran-mentions.json` adds verse links for 38 people using 649 source-tagged word locations from the Quranic Arabic Corpus. The index preserves query URLs, source counts, retrieval dates and page digests. The source does not cover every narrative reference; known omissions are disclosed in the UI.
-
-Refresh with `python3 scripts/index_quran_mentions.py`. This performs read-only network requests and only writes a new output after every selected source query reconciles. Run `python3 scripts/test_mentions.py` for the external-format regression checks. Attribution and source terms are in `public/data/MENTIONS-NOTICE.txt`.
-
-## World atlas
-
-Open `#spread` (undated scriptural beginning) or `#spread/2026`. `scripts/build_atlas.py` generates the original sourced chapter data in `public/data/atlas.json`. `node --test scripts/test_atlas.mjs` checks source references, missing-value handling, regional arithmetic, and globe coordinates.
-
-Global counts: WCD 2026 provides 1900, 1970, 2000 and 2026 estimates. Pew 2025 provides 2010 and 2020 global and regional snapshots. These methodologies differ and are not interpolated into one growth series. The 2026 regional map remains explicitly dated 2020. No global counts are invented for earlier periods.
-
-Three.js browser modules and Natural Earth land polygons are pinned by upstream commit, with URLs and SHA-256 hashes in `public/vendor/manifest.json`; licenses and attribution are retained. WebGL failure leaves the chapter controls, sources and location list usable.
+Built by [ummah.build](https://ummah.build) · [X](https://x.com/ummahbuild) · [LinkedIn](https://www.linkedin.com/company/ummah-build) · [TikTok](https://www.tiktok.com/@ummah.build) · [GitHub](https://github.com/ummahbuild) · [YouTube](https://www.youtube.com/@ummah_build)
