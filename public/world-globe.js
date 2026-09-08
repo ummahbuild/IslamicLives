@@ -32,23 +32,27 @@ export function createGlobe(host,land,onSelect){
  root.add(new THREE.LineSegments(new THREE.BufferGeometry().setAttribute('position',new THREE.Float32BufferAttribute(grid,3)),new THREE.LineBasicMaterial({color:0xabc4a2,transparent:true,opacity:.12})));
  const atmosphere=new THREE.Mesh(new THREE.SphereGeometry(1.035,64,32),new THREE.ShaderMaterial({transparent:true,depthWrite:false,side:THREE.BackSide,uniforms:{glowColor:{value:new THREE.Color('#aecb9b')}},vertexShader:'varying vec3 n; varying vec3 v; void main(){ vec4 p=modelViewMatrix*vec4(position,1.0); n=normalize(normalMatrix*normal); v=normalize(-p.xyz); gl_Position=projectionMatrix*p; }',fragmentShader:'uniform vec3 glowColor; varying vec3 n; varying vec3 v; void main(){ float g=pow(1.0-abs(dot(n,v)),3.0); gl_FragColor=vec4(glowColor,g*0.22); }'}));root.add(atmosphere);
  const layer=new THREE.Group();root.add(layer);
- let picks=[],labels=[],frame=0,disposed=false,drag=null,target=null,dirty=true;
+ let picks=[],labels=[],frame=0,disposed=false,drag=null,target=null,dirty=true,tourTimers=[];
  const raycaster=new THREE.Raycaster(),pointer=new THREE.Vector2();
  const abort=new AbortController();
  const listen=(node,type,fn,options={})=>node.addEventListener(type,fn,{...options,signal:abort.signal});
  function clearLayer(){while(layer.children.length){const item=layer.children[0];item.traverse(o=>{o.geometry?.dispose();if(o.material) o.material.dispose()});layer.remove(item)}picks=[];labels.forEach(l=>l.element.remove());labels=[]}
- function focus(lat=20,lon=35){target={x:lat*Math.PI/180,y:-Math.PI/2-lon*Math.PI/180};if(reduced){root.rotation.set(target.x,target.y,0);target=null}dirty=true}
+ function setFocus(lat=20,lon=35){target={x:lat*Math.PI/180,y:-Math.PI/2-lon*Math.PI/180};if(reduced){root.rotation.set(target.x,target.y,0);target=null}dirty=true}
+ function stopTour(){tourTimers.forEach(clearTimeout);tourTimers=[]}
+ function focus(lat=20,lon=35){stopTour();setFocus(lat,lon)}
  focus();root.rotation.set(20*Math.PI/180,-Math.PI/2-35*Math.PI/180,0);target=null;
- function update(markers,connections,places){
+ function update(markers,connections,places,context={}){
   clearLayer();
-  const positions=new Map(places.map(p=>[p.id,p]));
-  for(const [from,to] of connections){
+  const positions=new Map([...places,...markers].map(p=>[p.id,p]));
+  const routes=[...(context.priorLinks||[]).map(edge=>({edge,current:false})),...connections.map(edge=>({edge,current:true}))];
+  for(const {edge:[from,to],current} of routes){
    const a=positions.get(from),b=positions.get(to);if(!a||!b)continue;
    const v1=new THREE.Vector3(...pointOnSphere(a.lat,a.lon)),v2=new THREE.Vector3(...pointOnSphere(b.lat,b.lon));
    const angle=v1.angleTo(v2);const points=[];
    for(let i=0;i<=64;i++){const t=i/64;const v=angle<.001?v1.clone():v1.clone().multiplyScalar(Math.sin((1-t)*angle)).add(v2.clone().multiplyScalar(Math.sin(t*angle))).divideScalar(Math.sin(angle));points.push(v.multiplyScalar(1.012+Math.sin(Math.PI*t)*.13))}
-   const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineDashedMaterial({color:0xd6b776,transparent:true,opacity:.65,dashSize:.025,gapSize:.012}));line.computeLineDistances();layer.add(line);
+   const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineDashedMaterial({color:current?0x55d6c2:0xd6b776,transparent:true,opacity:current ? .95 : .5,dashSize:.025,gapSize:.012}));line.computeLineDistances();layer.add(line);
   }
+  for(const id of context.extentIds||[]){const place=positions.get(id);if(!place)continue;const active=markers.some(marker=>marker.id===id);const radius=active ? .075 : .055;const fill=new THREE.Mesh(new THREE.CircleGeometry(radius,36),new THREE.MeshBasicMaterial({color:active?0x55d6c2:0x2b8f83,transparent:true,opacity:active ? .32 : .16,side:THREE.DoubleSide,depthWrite:false}));const pos=new THREE.Vector3(...pointOnSphere(place.lat,place.lon,1.007));fill.position.copy(pos);fill.quaternion.setFromUnitVectors(new THREE.Vector3(0,0,1),pos.clone().normalize());fill.scale.setScalar(active&&!reduced ? .05 : 1);layer.add(fill);if(active&&!reduced){const started=performance.now();const grow=now=>{if(disposed||!fill.parent)return;fill.scale.setScalar(Math.min(1,(now-started)/700));dirty=true;if(now-started<700)requestAnimationFrame(grow)};requestAnimationFrame(grow)}}
   for(const marker of markers){
    const population=marker.kind==='population';
    const radius=population?.24*Math.sqrt(marker.value/1.2e9):.012;
@@ -60,7 +64,7 @@ export function createGlobe(host,land,onSelect){
    const hit=new THREE.Mesh(new THREE.CircleGeometry(Math.max(radius,.036),24),new THREE.MeshBasicMaterial({visible:false}));hit.position.copy(pos);hit.quaternion.copy(dot.quaternion);hit.userData.marker=marker;layer.add(hit);picks.push(hit);
    const label=document.createElement('span');label.className='globe-place-label';label.textContent=marker.name;label.setAttribute('aria-hidden','true');host.append(label);labels.push({element:label,position:pos});
   }
-  if(markers.length){const first=markers[0];focus(first.lat,first.lon)}else focus();
+  if(markers.length){const first=markers[0];setFocus(first.lat,first.lon)}else setFocus();
   dirty=true;
  }
  function pick(event){
@@ -82,5 +86,6 @@ export function createGlobe(host,land,onSelect){
  }
  listen(canvas,'webglcontextlost',e=>{e.preventDefault();host.dataset.failed='true';canvas.hidden=true;labels.forEach(l=>l.element.hidden=true);const p=document.createElement('p');p.className='globe-error';p.textContent='The 3D view paused. The timeline and location list remain available. Reload to restore the globe.';host.append(p);disposed=true;cancelAnimationFrame(frame)});
  tick();
- return {update,focus,zoom,reset:()=>{camera.position.z=3.8;focus()},destroy(){disposed=true;cancelAnimationFrame(frame);observer.disconnect();abort.abort();clearLayer();scene.traverse(o=>{o.geometry?.dispose();if(o.material)o.material.dispose()});texture.dispose();renderer.dispose();renderer.forceContextLoss();canvas.remove()}};
+ function tour(markers){stopTour();if(!markers.length)return;markers.forEach((marker,i)=>tourTimers.push(setTimeout(()=>setFocus(marker.lat,marker.lon),i*900)))}
+ return {update,focus,tour,zoom,reset:()=>{camera.position.z=3.8;focus()},destroy(){disposed=true;stopTour();cancelAnimationFrame(frame);observer.disconnect();abort.abort();clearLayer();scene.traverse(o=>{o.geometry?.dispose();if(o.material)o.material.dispose()});texture.dispose();renderer.dispose();renderer.forceContextLoss();canvas.remove()}};
 }

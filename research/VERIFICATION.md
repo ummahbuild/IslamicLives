@@ -31,7 +31,7 @@ No structural test is evidence of historical truth or corpus completeness. This 
 ## 2026-09-08 — Three.js atlas
 
 - PASS: five atlas tests (unknown counts, 2026 vs 2020 distinction, citation/connection integrity, rounded regional arithmetic, sphere coordinates); JavaScript syntax; existing dataset and mention tests.
-- Browser visual testing currently unavailable: Mac locked. Do not call this browser-verified. WebGL fallback is implemented but not yet exercised in a browser.
+- Browser verification completed on 2026-09-08 in the Codex in-app Chromium browser. Desktop and 390px checks covered the home page, new profile rendering, four fact cards, linked sources, zero horizontal overflow, the 82-option Who selector (81 people plus its prompt), evidence-type selection, WebGL canvas rendering, 0.5×/1×/2× controls, pause state, and final-chapter completion. The penultimate chapter advanced to 2026, kept that chapter visible for a full 2× interval, then stopped with all six regional controls present and no console errors. Native iPhone Safari remains unverified.
 - Primary 2026 WCD table read (row 14) through its publisher: 1900=200,301,000; 1970=576,995,000; 2000=1,311,342,000; 2020=1,917,487,000; 2026=2,105,142,000. Display rounded counts.
 - Pew Appendix B first page supplies rounded regional input totals and Muslim percentages for 2010/2020. Derived counts labelled approximate; not used as 2026 regional predictions.
 

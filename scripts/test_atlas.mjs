@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {populationLabel,regionalYear,markersFor,pointOnSphere} from '../public/atlas-model.mjs';
+import {populationLabel,regionalYear,markersFor,pointOnSphere,playbackDelay,cumulativeAtlasContext,tourStops} from '../public/atlas-model.mjs';
 const data=JSON.parse(fs.readFileSync(new URL('../public/data/atlas.json',import.meta.url)));
 test('unknown population never becomes zero or a fabricated estimate',()=>{
  for(const event of data.events.filter(e=>e.year===null||e.year<1900)){assert.equal(event.population,null);assert.equal(populationLabel(event.population?.value),'Not established')}
@@ -22,4 +22,21 @@ test('sphere coordinates match equirectangular texture orientation',()=>{
  const approx=(a,b)=>a.forEach((n,i)=>assert.ok(Math.abs(n-b[i])<1e-10));
  approx(pointOnSphere(0,0),[1,0,0]);approx(pointOnSphere(0,90),[0,0,-1]);approx(pointOnSphere(90,0),[0,1,0]);
  for(const p of data.places){assert.ok(Math.abs(Math.hypot(...pointOnSphere(p.lat,p.lon))-1)<1e-10)}
+});
+test('playback speeds map to bounded chapter durations',()=>{
+ assert.equal(playbackDelay(.5),10000);assert.equal(playbackDelay(1),5000);assert.equal(playbackDelay(2),2500);
+ assert.equal(playbackDelay(99),2500);assert.equal(playbackDelay(0),5000);
+});
+test('historical atlas context keeps earlier routes and cumulative extents',()=>{
+ const index=data.events.findIndex(event=>event.id==='900'),context=cumulativeAtlasContext(data,index);
+ assert.ok(context.extentIds.includes('china'));assert.ok(context.extentIds.includes('mecca'));
+ assert.ok(context.priorLinks.some(([from,to])=>from==='mecca'&&to==='medina'));
+});
+test('modern chapters shade and tour all six sourced regions',()=>{
+ for(const id of ['2010','2020','2026']){const index=data.events.findIndex(event=>event.id===id),markers=markersFor(data,data.events[index]),context=cumulativeAtlasContext(data,index);assert.equal(markers.length,6);assert.equal(context.extentIds.length,6);assert.equal(tourStops(markers).length,6)}
+});
+test('tour stops preserve China and North America coordinates',()=>{
+ const china=data.places.find(place=>place.id==='china'),north=data.regions.find(region=>region.id==='north-america');
+ assert.deepEqual(tourStops([china,north]).map(stop=>stop.id),['china','north-america']);
+ assert.ok(china.lon>100);assert.ok(north.lon<0);
 });

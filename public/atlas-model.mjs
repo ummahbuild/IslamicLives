@@ -11,3 +11,9 @@ export function pointOnSphere(lat,lon,radius=1){
  const a=lat*Math.PI/180,o=lon*Math.PI/180;
  return [radius*Math.cos(a)*Math.cos(o),radius*Math.sin(a),-radius*Math.cos(a)*Math.sin(o)];
 }
+export function playbackDelay(speed,base=5000){return base/Math.max(.5,Math.min(2,Number(speed)||1))}
+export function cumulativeAtlasContext(data,index){
+ const current=data.events[index],earlier=data.events.slice(0,index),markers=markersFor(data,current),year=regionalYear(current);
+ return {extentIds:year?[...new Set(markers.map(marker=>marker.id))]:[...new Set([...earlier.flatMap(event=>event.places),...current.places])],priorLinks:earlier.flatMap(event=>event.links)};
+}
+export function tourStops(markers){return markers.map(({id,lat,lon})=>({id,lat,lon}))}

@@ -10,6 +10,7 @@
     "web": "npm run dev --workspace=@islamic-lives/web",
     "mobile": "npm run start --workspace=@islamic-lives/mobile",
     "mobile:check": "npm run check --workspace=@islamic-lives/mobile",
-    "ci": "npm run content:build && npm run audit && npm run mobile:check"
+    "production:check": "python3 scripts/release_check.py",
+    "ci": "npm run content:build && npm run audit && npm run production:check && npm run mobile:check"
   }
 }

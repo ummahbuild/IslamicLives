@@ -3439,6 +3439,876 @@
       ],
       "uncertainty": "The verse does not give her personal name. Her entry remains distinct from the wife of Nuh.",
       "reviewed": "2026-09-08"
+    },
+    {
+      "id": "dhul-qarnayn",
+      "name": "Dhul-Qarnayn",
+      "arabic": "ذو القرنين",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Locations not established",
+      "coordinates": null,
+      "role": "A ruler tested with power",
+      "chapters": [
+        {
+          "title": "A means to travel",
+          "text": "The Qur’an says Dhul-Qarnayn was established in the land and given means to pursue a course. The account then describes journeys without supplying a calendar date.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A barrier by consent",
+          "text": "Between two barriers, a people ask for protection from Gog and Magog. Dhul-Qarnayn refuses tribute, asks for their labour, and constructs a barrier while attributing its success to divine mercy.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 18:83-86",
+          "url": "https://quran.com/18/83-86",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 18:92-98",
+          "url": "https://quran.com/18/92-98",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not identify Dhul-Qarnayn with Alexander, Cyrus, or another historical ruler. The locations and chronology are not asserted here.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "mother-musa",
+      "name": "The mother of Musa",
+      "arabic": "أم موسى",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Egypt in the Qur’anic account",
+      "coordinates": null,
+      "role": "Trust under danger",
+      "chapters": [
+        {
+          "title": "An instruction and a promise",
+          "text": "The Qur’an describes inspiration to Musa’s mother: nurse him, and when she fears for him, place him in the river without fear or grief; he will be returned and made a messenger.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Returned to his mother",
+          "text": "Musa’s sister watches from a distance. After he refuses other nurses, his family is indicated, and he is returned to his mother so that she may be comforted.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 28:7",
+          "url": "https://quran.com/28/7",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 28:8-13",
+          "url": "https://quran.com/28/8-13",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Her personal name, age, and exact location are not given in these verses. “Inspiration” here follows the Qur’anic wording and is not a claim that she was a prophet.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "madyan-elder",
+      "name": "The elder of Madyan",
+      "arabic": "شيخ مدين",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Madyan",
+      "coordinates": null,
+      "role": "Shelter and an agreement",
+      "chapters": [
+        {
+          "title": "A report from two women",
+          "text": "After Musa helps two women water their flock, one returns and says her father invites him so he may be rewarded. Musa tells the elder his story and is reassured.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "An agreed term",
+          "text": "The elder offers Musa marriage to one of his daughters in return for eight years of service, with ten left as Musa’s choice. Musa accepts the agreement.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 28:23-25",
+          "url": "https://quran.com/28/23-25",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 28:26-28",
+          "url": "https://quran.com/28/26-28",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not name this man or identify him as the prophet Shuayb. That common later identification is therefore not stated as Qur’anic fact.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "adam-son-offering",
+      "name": "One son of Adam: the accepted offering",
+      "arabic": "أحد ابني آدم",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "One of Adam’s two sons, whose offering was accepted",
+      "chapters": [
+        {
+          "title": "Two offerings",
+          "text": "The Qur’an asks that the account of Adam’s two sons be recited truthfully: each offers a sacrifice, and one is accepted while the other is not.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Moral responsibility",
+          "text": "The brothers’ exchange rejects aggression; the account then describes one soul prompting the killing of the other and the killer becoming one of the losers.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 5:27",
+          "url": "https://quran.com/5/27",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 5:28-31",
+          "url": "https://quran.com/5/28-31",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give either son a personal name. The names Habil and Qabil belong to later interpretive tradition and are not used here as if they appeared in the verse.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "adam-son-aggressor",
+      "name": "One son of Adam: the aggressor",
+      "arabic": "أحد ابني آدم",
+      "category": "Qur’anic people",
+      "era": "Qur’anic accounts",
+      "date": "Date not established",
+      "year": null,
+      "place": "Location not established",
+      "coordinates": null,
+      "role": "One of Adam’s two sons, who threatened and killed his brother",
+      "chapters": [
+        {
+          "title": "Two offerings",
+          "text": "The Qur’an asks that the account of Adam’s two sons be recited truthfully: each offers a sacrifice, and one is accepted while the other is not.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Moral responsibility",
+          "text": "The brothers’ exchange rejects aggression; the account then describes one soul prompting the killing of the other and the killer becoming one of the losers.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qur’an 5:27",
+          "url": "https://quran.com/5/27",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 5:28-31",
+          "url": "https://quran.com/5/28-31",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The Qur’an does not give either son a personal name. The names Habil and Qabil belong to later interpretive tradition and are not used here as if they appeared in the verse.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "bilal",
+      "name": "Bilal ibn Rabah",
+      "arabic": "بلال بن رباح",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Caller to prayer and Companion",
+      "chapters": [
+        {
+          "title": "A practice remembered",
+          "text": "In a report narrated by Abu Hurayrah, Muhammad asks Bilal about the deed in Islam from which he most hopes for reward. Bilal describes praying after purification.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A transmitted virtue",
+          "text": "The report connects Bilal with footsteps heard in Paradise. It is presented as a Sunni hadith report, not an independently dated biographical event.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 1149",
+          "url": "https://sunnah.com/bukhari:1149",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "This concise profile does not assert disputed details about Bilal’s birth year, later residence, or death date.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "fatimah",
+      "name": "Fatimah bint Muhammad",
+      "arabic": "فاطمة بنت محمد",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Daughter of Muhammad",
+      "chapters": [
+        {
+          "title": "A daughter remembered",
+          "text": "Sahih al-Bukhari preserves Muhammad’s statement that Fatimah is part of him and that what angers her angers him.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Work and remembrance",
+          "text": "Another report describes Fatimah’s work at the hand mill and the remembrance taught to her and Ali before sleep.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 3767",
+          "url": "https://sunnah.com/bukhari:3767",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 3705",
+          "url": "https://sunnah.com/bukhari:3705",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Reports about her age, birth year, and the political disputes after Muhammad’s death require wider Sunni and Shia source review; no exact birth year is asserted.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "anas-ibn-malik",
+      "name": "Anas ibn Malik",
+      "arabic": "أنس بن مالك",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Companion and transmitter",
+      "chapters": [
+        {
+          "title": "Ten years of service",
+          "text": "Anas reports that his mother and aunts urged him to serve Muhammad and that he did so for ten years in Medina.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A long transmitting life",
+          "text": "His many narrations preserve observations of community life. This profile distinguishes what Anas says in a report from later reconstruction of his biography.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 5166",
+          "url": "https://sunnah.com/bukhari:5166",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 6038",
+          "url": "https://sunnah.com/bukhari:6038",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Reports differ on his exact death year and age. The account is bounded to statements in the linked Sunni hadith collection.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "abu-hurayrah",
+      "name": "Abu Hurayrah",
+      "arabic": "أبو هريرة",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Companion and hadith transmitter",
+      "chapters": [
+        {
+          "title": "Staying close to learn",
+          "text": "Abu Hurayrah explains that he remained with Muhammad while others were occupied with markets or agriculture, attending and memorising what they missed.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Writing and memory",
+          "text": "He says Abdullah ibn Amr transmitted more in writing, while he himself did not write in the same way. The report is evidence about his own account of transmission.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 118",
+          "url": "https://sunnah.com/bukhari:118",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 113",
+          "url": "https://sunnah.com/bukhari:113",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "His birth name and exact dates are disputed in biographical literature. “Abu Hurayrah” is the well-known kunya used by the reports.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "asma-bint-abi-bakr",
+      "name": "Asma bint Abi Bakr",
+      "arabic": "أسماء بنت أبي بكر",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Companion and migrant",
+      "chapters": [
+        {
+          "title": "Preparing provisions",
+          "text": "Asma reports preparing provisions for Muhammad and Abu Bakr at the time of migration and dividing her waistband to tie their containers.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A name from the report",
+          "text": "The same report explains the title associated with the two waistbands. This profile does not build a full life from that single episode.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 3907",
+          "url": "https://sunnah.com/bukhari:3907",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Her exact birth date is not established here; later biographical detail requires a broader source review.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "hafsah-bint-umar",
+      "name": "Hafsah bint Umar",
+      "arabic": "حفصة بنت عمر",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Companion and custodian of manuscripts",
+      "chapters": [
+        {
+          "title": "Marriage in Medina",
+          "text": "Umar’s report describes Hafsah after the death of her husband Khunays and her subsequent marriage to Muhammad.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Manuscripts consulted",
+          "text": "Sahih al-Bukhari reports that Qur’anic manuscripts held by Hafsah were borrowed when Uthman commissioned standard copies and then returned to her.",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 4005",
+          "url": "https://sunnah.com/bukhari:4005",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 4987",
+          "url": "https://sunnah.com/bukhari:4987",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The exact chronology of her birth and all manuscript-history questions are outside this short profile.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "umm-salamah",
+      "name": "Umm Salamah",
+      "arabic": "أم سلمة",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Companion and transmitter",
+      "chapters": [
+        {
+          "title": "A named transmitter",
+          "text": "Umm Salamah transmits reports concerning worship, family life, and events in the early Muslim community.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Identity in the sources",
+          "text": "The narrator catalogue identifies her as Hind bint Abi Umayyah and a wife of Muhammad; this profile retains her well-known kunya.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Umm Salamah — narrator record",
+          "url": "https://sunnah.com/narrator/8101",
+          "kind": "Hadith biographical index",
+          "note": "",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Reports differ on her death year. This is an introductory account, not an exhaustive hadith or biographical index.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "umm-sulaym",
+      "name": "Umm Sulaym",
+      "arabic": "أم سليم",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Companion and mother of Anas",
+      "chapters": [
+        {
+          "title": "A request for Anas",
+          "text": "Anas narrates that Umm Sulaym asked Muhammad to pray for her son. The report explicitly identifies Anas as his servant.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A household in the reports",
+          "text": "Her life appears through reports transmitted by and about her family; those reports do not supply a single complete chronological biography.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 1982",
+          "url": "https://sunnah.com/bukhari:1982",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Her personal-name variants and the chronology of her marriages require broader biographical-source comparison.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ibn-abbas",
+      "name": "Abdullah ibn Abbas",
+      "arabic": "عبد الله بن عباس",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Companion and interpreter",
+      "chapters": [
+        {
+          "title": "A prayer for understanding",
+          "text": "Ibn Abbas reports that Muhammad embraced him and prayed that he be taught the Book.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A transmitting Companion",
+          "text": "His narrations became important to later Qur’anic interpretation and hadith transmission; this profile does not attribute every later tafsir report to him.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 75",
+          "url": "https://sunnah.com/bukhari:75",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "The reliability and chains of individual reports attributed to Ibn Abbas must be assessed separately.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "abu-talha",
+      "name": "Abu Talha al-Ansari",
+      "arabic": "أبو طلحة الأنصاري",
+      "category": "Sahabah",
+      "era": "Early Islam",
+      "date": "7th century CE",
+      "year": null,
+      "place": "Medina",
+      "coordinates": [
+        24.47,
+        39.61
+      ],
+      "role": "Companion of Medina",
+      "chapters": [
+        {
+          "title": "A garden given in charity",
+          "text": "After the verse about attaining righteousness through giving what one loves, Abu Talha offers his garden Bayruha in charity.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Direction for the gift",
+          "text": "The report says Muhammad commends the gift and advises that it be distributed among Abu Talha’s relatives.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sahih al-Bukhari 1461",
+          "url": "https://sunnah.com/bukhari:1461",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; this is a transmitted report, not a contemporary eyewitness document.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "His personal name and dates appear with variants in later biographical sources; this account stays with the linked report.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "al-ghazali",
+      "name": "Al-Ghazali",
+      "arabic": "الغزالي",
+      "category": "Islamic scholars",
+      "era": "Medieval worlds",
+      "date": "c. 1055/1058–1111 CE",
+      "year": 1058,
+      "place": "Tus, Nishapur, Baghdad, and Damascus",
+      "coordinates": [
+        35.24,
+        59.22
+      ],
+      "role": "Law, theology, ethics, and spiritual practice",
+      "chapters": [
+        {
+          "title": "Teaching and departure",
+          "text": "Al-Ghazali taught at the Nizamiyya in Baghdad before leaving public teaching during a personal and spiritual crisis.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "A wide intellectual legacy",
+          "text": "His works address law, theology, philosophy, ethics, and spiritual discipline. The Ihya became especially influential, while his critique of philosophers generated long debate.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Qur’an and Sunnah as a shared foundation",
+          "text": "The collection distinguishes these scholars’ historical arguments from the Qur’an and transmitted Sunnah that they interpreted. The thematic references do not certify every later opinion.",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Al-Ghazali — Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/al-Ghazali",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 16:43",
+          "url": "https://quran.com/16/43",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 71",
+          "url": "https://sunnah.com/bukhari:71",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; cited for the virtue of understanding religion, not as biographical evidence.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Sources give 1058 and earlier alternatives around 1055–56 for his birth. Accounts of his crisis depend partly on his own retrospective writing.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ibn-rushd",
+      "name": "Ibn Rushd (Averroes)",
+      "arabic": "ابن رشد",
+      "category": "Islamic scholars",
+      "era": "Medieval worlds",
+      "date": "1126–1198 CE",
+      "year": 1126,
+      "place": "Cordoba and Marrakesh",
+      "coordinates": [
+        37.89,
+        -4.78
+      ],
+      "role": "Judge, physician, and philosopher",
+      "chapters": [
+        {
+          "title": "A judge and physician",
+          "text": "Ibn Rushd was born in Cordoba into a family known for law. He served as a judge and later as chief physician in an Almohad court.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Commentary and religious inquiry",
+          "text": "He wrote on law, medicine, philosophy, and theology and produced influential commentaries on Aristotle. His relationship with Almohad authority changed late in his life.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Qur’an and Sunnah as a shared foundation",
+          "text": "The collection distinguishes these scholars’ historical arguments from the Qur’an and transmitted Sunnah that they interpreted. The thematic references do not certify every later opinion.",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ibn Rushd — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/ibn-rushd/",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 16:43",
+          "url": "https://quran.com/16/43",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 71",
+          "url": "https://sunnah.com/bukhari:71",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; cited for the virtue of understanding religion, not as biographical evidence.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "Many details of his education and the reason for his late disgrace remain unclear in the surviving sources. “Averroes” is the Latinised name by which he is often searched.",
+      "reviewed": "2026-09-08"
+    },
+    {
+      "id": "ibn-khaldun",
+      "name": "Ibn Khaldun",
+      "arabic": "ابن خلدون",
+      "category": "Islamic scholars",
+      "era": "Medieval worlds",
+      "date": "1332–1406 CE",
+      "year": 1332,
+      "place": "Tunis, North Africa, and Cairo",
+      "coordinates": [
+        36.81,
+        10.18
+      ],
+      "role": "Historian and social theorist",
+      "chapters": [
+        {
+          "title": "Politics and scholarship",
+          "text": "Born in Tunis, Ibn Khaldun served several North African courts before periods of withdrawal, travel, and teaching.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "The Muqaddimah",
+          "text": "The introduction to his universal history examines social solidarity, political authority, economic life, and the rise and decline of dynasties. Later labels such as “founder of sociology” can obscure its medieval intellectual setting.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "title": "Qur’an and Sunnah as a shared foundation",
+          "text": "The collection distinguishes these scholars’ historical arguments from the Qur’an and transmitted Sunnah that they interpreted. The thematic references do not certify every later opinion.",
+          "sources": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ibn Khaldun — Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Ibn-Khaldun",
+          "kind": "Historical scholarship",
+          "note": "",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Qur’an 16:43",
+          "url": "https://quran.com/16/43",
+          "kind": "Qur’anic account",
+          "note": "Verse reference; story text is an original paraphrase, not a translation.",
+          "accessed": "2026-09-08"
+        },
+        {
+          "title": "Sahih al-Bukhari 71",
+          "url": "https://sunnah.com/bukhari:71",
+          "kind": "Hadith",
+          "note": "Sahih collection in Sunni tradition; cited for the virtue of understanding religion, not as biographical evidence.",
+          "accessed": "2026-09-08"
+        }
+      ],
+      "uncertainty": "His autobiography is a major source for his life but remains a self-authored account. Modern disciplinary titles are not treated as exact descriptions of his project.",
+      "reviewed": "2026-09-08"
     }
   ]
 }

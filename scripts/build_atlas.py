@@ -51,7 +51,7 @@ for id,name,lat,lon,a,b in [
  ('latin-america','Latin America & Caribbean',-15,-60,(588470000,0.1),(646240000,0.1))]:
  regions.append(dict(id=id,name=name,lat=lat,lon=lon,source='regions',snapshots={str(y):dict(total=t,muslimPercent=p,value=round(t*p/100)) for y,(t,p) in [(2010,a),(2020,b)]}))
 data=dict(reviewed='2026-09-08',sources=sources,places=places,events=events,regions=regions,methodology=[
- 'The timeline advances through selected chapters, not evenly spaced years. Historical connections are illustrative, not exact routes, borders, first arrivals, or conversion rates.',
+ 'The timeline advances through selected chapters, not evenly spaced years. Turquoise land extents are illustrative areas around sourced locations; they are not historical borders, territorial claims, first arrivals, conversion percentages, or conversion rates. Gold connections show earlier illustrative links.',
  'Historic place markers are equal-sized. Modern circle areas are proportional to regional counts before globe perspective; small circles have an outlined hit target. No territorial ownership or Muslim majority is implied.',
  'There are no global population estimates in this edition before 1900. Missing counts are unknown, not zero. No interpolation fills the gaps.',
  'Global snapshots use WCD 2026 (1900, 1970, 2000, 2026) and Pew 2025 (2010, 2020). These series differ: WCD estimates about 1.9 billion for 2020, versus Pew’s 2.0 billion. Do not treat the combined snapshots as one growth series.',

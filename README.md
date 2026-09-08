@@ -14,7 +14,7 @@ Run `npm run content:build` before web or mobile release builds so both apps con
 
 Working edition, **not an exhaustive historical database**. The original user scope has expanded to every person mentioned in the Qur’an, hadith, and historical books, plus how Islam spread through 2026. Completion must not be claimed until the corpus is bounded, indexed, reviewed, and its coverage verified.
 
-- 63 people, including the 25 traditionally listed Qur’anic prophets and an initial four-profile Islamic scholars collection.
+- 81 people, including the 25 traditionally listed Qur’anic prophets, sourced Companion and Qur’anic-person profiles, and seven academic/scholar profiles.
 - Source references at the paragraph level and uncertainty notes.
 - Search, category filters, era selection, random discovery, shareable story URLs.
 - Crawlable Explore, Prophets, Scholars, People, Sources, and Atlas entry pages with a custom 404 fallback.

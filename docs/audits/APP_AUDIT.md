@@ -16,7 +16,7 @@ The app has a strong evidence-first premise, 25 prophet records, accessible core
 | P1 | Hadith provenance | The first verified set is mainly Sahih al-Bukhari. | Add collection, number, grade, translator/source, and review status as structured fields. |
 | P1 | Routing | Crawlable `/about/` and `/spread/` entry pages now exist; chapter-specific atlas states still use fragments. | Generate crawlable chapter routes in a later routing pass. |
 | P1 | Testing | A deterministic local audit runner now covers generators, internal links, data, JavaScript, and atlas tests; hosted CI is not configured. | Add CI after the repository’s no-package and hosting policy is confirmed. |
-| P2 | Social previews | Metadata exists but no branded Open Graph image is present. | Produce and visually inspect one branded preview asset. |
+| Complete | Social previews | A visually inspected 1200×630 branded Open Graph image is wired to the home and collection pages with alt text and large-card metadata. Individual biography pages intentionally avoid implying that the generic artwork depicts the person. | Keep the release check active and refresh the asset only when branding changes. |
 | P2 | Offline/error UX | Generated pages now retain sourced static content when enhancement fails; the home application still uses an error panel. | Consider a service worker only if offline use becomes a product requirement. |
 | P2 | Accessibility | Keyboard basics exist, but no automated accessibility scan or screen-reader review is recorded. | Add axe-based checks when a browser-test dependency is approved. |
 | P2 | Performance | Three.js is vendored and loaded only by the atlas, but budgets are not measured. | Record page-weight and interaction budgets in CI.

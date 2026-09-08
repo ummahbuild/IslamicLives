@@ -26,16 +26,22 @@ The repository is now staged as an npm-workspace monorepo with web and Expo apps
 ## Phase 4 — Product quality
 
 - Create crawlable routes for the atlas and methodology pages.
-- Add social preview art, a robust static error fallback, automated accessibility checks, link checking, and page-weight budgets.
+- Crawlable routes, structured metadata, static error fallback, internal-link checks, and native release-contract checks are now automated.
+- Branded loading states, reduced-motion-aware transitions, contextual Qur’an/surah references, and explicit linked Sunnah reports are implemented across the primary reading experience.
+- Branded social preview artwork and metadata checks are complete. Add automated browser accessibility checks and explicit page-weight budgets.
 - Add CI and preview deployment after the no-package policy and hosting target are confirmed.
+- Preserve the atlas interaction contract in browser tests: WebGL fallback, 0.5×/1×/2× playback, a fully visible final chapter, multi-stop camera tours, and manual camera takeover.
 
 ## Phase 5 — Native release
 
 - The Expo SDK 57 workspace, shared content package, EAS profiles, and CI export gate are now present.
-- Category filtering, four-step discovery, and native deep-link routing are implemented. Add app icons/splash assets, saved profiles, and full VoiceOver/TalkBack verification.
+- Category filtering, four-step discovery, native deep-link routing, persistent saved profiles, and initial app icon/splash assets are implemented.
+- Confirm final store artwork with ummah.build, add store screenshots and privacy-policy copy, and complete VoiceOver/TalkBack verification.
 - Configure EAS project ownership and store credentials only after the ummah.build owner approves identifiers and listing content.
 - Run TestFlight and Play internal testing before public submission.
 
 ## Release gate
 
 Do not market the collection as exhaustive until the corpus definitions in `research/SCOPE.md` are closed and every coverage claim is reproducible.
+
+The current generated collection has 81 profiles. The older 77-person target predates the 18 requested additions to the 63-profile main branch and is retained only as historical prompt context, not as a release invariant.

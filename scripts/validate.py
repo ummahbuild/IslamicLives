@@ -6,6 +6,9 @@ data=json.loads((r/'public/data/people.json').read_text()); people=data['people'
 assert len({p['id'] for p in people})==len(people),'Duplicate people'
 expected={'adam','idris','nuh','hud','salih','ibrahim','lut','ismail','ishaq','yaqub','yusuf','ayyub','shuayb','musa','harun','dhul-kifl','dawud','sulayman','ilyas','alyasa','yunus','zakariyya','yahya','isa','muhammad'}
 assert {p['id'] for p in people if p['category']=='Prophets'}==expected
+requested_additions={'bilal','fatimah','anas-ibn-malik','abu-hurayrah','dhul-qarnayn','mother-musa','madyan-elder','adam-son-offering','adam-son-aggressor','asma-bint-abi-bakr','hafsah-bint-umar','umm-salamah','umm-sulaym','ibn-abbas','abu-talha','al-ghazali','ibn-rushd','ibn-khaldun'}
+assert len(people)==81,'The complete requested collection currently contains 81 records'
+assert requested_additions <= {p['id'] for p in people},'A requested sourced profile is missing'
 for p in people:
  assert p['uncertainty'] and p['chapters'] and p['sources'],p['id']
  if p['era']=='Qur’anic accounts':assert p['year'] is None and p['coordinates'] is None

@@ -3,18 +3,30 @@
     "name": "Islamic Lives",
     "slug": "islamic-lives",
     "version": "1.0.0",
+    "description": "Explore sourced accounts of prophets, scholars, Companions, and people across Islamic history.",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "scheme": "islamiclives",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101411"
+    },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "build.ummah.islamiclives"
+      "bundleIdentifier": "build.ummah.islamiclives",
+      "config": { "usesNonExemptEncryption": false }
     },
     "android": {
       "package": "build.ummah.islamiclives",
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#101411"
+      }
     },
-    "web": { "bundler": "metro", "output": "single" },
+    "web": { "bundler": "metro", "output": "single", "favicon": "./assets/icon.png" },
     "experiments": { "autolinkingModuleResolution": true }
   }
 }

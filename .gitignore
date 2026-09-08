@@ -4,3 +4,5 @@ node_modules/
 apps/mobile/dist/
 apps/mobile/.expo/
 npm-debug.log*
+__pycache__/
+*.py[cod]
