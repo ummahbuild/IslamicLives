@@ -32,7 +32,7 @@ The repository is now staged as an npm-workspace monorepo with web and Expo apps
 ## Phase 5 — Native release
 
 - The Expo SDK 57 workspace, shared content package, EAS profiles, and CI export gate are now present.
-- Add category filtering, native deep-link routing, app icons/splash assets, saved profiles, and full VoiceOver/TalkBack verification.
+- Category filtering, four-step discovery, and native deep-link routing are implemented. Add app icons/splash assets, saved profiles, and full VoiceOver/TalkBack verification.
 - Configure EAS project ownership and store credentials only after the ummah.build owner approves identifiers and listing content.
 - Run TestFlight and Play internal testing before public submission.
 
