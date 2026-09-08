@@ -14,14 +14,16 @@
 - [ ] Index alternate names, titles, pronouns, and unnamed Qur’anic figures separately.
 - [ ] Audit Companion profiles against a declared source set rather than isolated reports.
 - [ ] Add academic or critical-edition sources where profiles rely on introductory references.
-- [ ] Add editorial status, reviewer, date, and scope to every profile.
+- [x] Add baseline structural editorial status, review date, scope, and scholar-review flag to every profile.
 
 ## P1 — Product quality
 
+- [x] Add a deterministic 100-point production contract covering every profile plus core product invariants.
+- [x] Keep the selected person prominent above the fold throughout the discovery journey.
 - [ ] Add automated accessibility and documented screen-reader checks.
 - [ ] Add deterministic browser tests for fallback, camera control, playback, Saved Lives, search, and overflow.
-- [ ] Define page-weight, animation-performance, and interaction-latency budgets.
-- [ ] Generate crawlable atlas chapter routes rather than relying only on fragments.
+- [x] Define and enforce page-weight budgets; document animation and interaction-latency targets pending device telemetry.
+- [x] Generate crawlable atlas chapter routes rather than relying only on fragments.
 
 ## P1 — Expo release
 
@@ -34,5 +36,6 @@
 ## P2 — Community and operations
 
 - [ ] Add named maintainers and a private conduct-reporting address.
-- [ ] Add release notes and a versioning policy.
+- [x] Add an Unreleased changelog and accuracy-boundary release notes.
+- [ ] Choose a versioning policy before the first approved public release.
 - [ ] Document preview and production deployment ownership.

@@ -1,5 +1,6 @@
 """Fail CI when required production metadata, routes, or native assets regress."""
 import json
+import re
 import struct
 from pathlib import Path
 
@@ -41,9 +42,22 @@ indexable_files = [page for page in html_files if page.name != "404.html"]
 for page in indexable_files:
     html = page.read_text()
     for marker in ('<title>', 'name="description"', 'rel="canonical"', 'property="og:title"',
-                   'name="twitter:title"', 'application/ld+json', 'data-site-footer'):
+                   'name="robots" content="index,follow', 'hreflang="en"', 'hreflang="x-default"',
+                   'property="og:locale"', 'name="twitter:site"', 'name="twitter:title"',
+                   'application/ld+json', 'data-site-footer'):
         require(marker in html, f"Missing {marker} in {page.relative_to(root)}")
+    title = re.search(r'<title>(.*?)</title>', html).group(1)
+    description = re.search(r'<meta name="description" content="(.*?)">', html).group(1)
+    require(10 <= len(title) <= 60, f"SEO title length is unsafe ({len(title)}): {page.relative_to(root)}")
+    require(50 <= len(description) <= 160, f"SEO description length is unsafe ({len(description)}): {page.relative_to(root)}")
+    canonical = re.search(r'<link rel="canonical" href="(.*?)">', html).group(1)
+    require(html.count(f'hreflang="en" href="{canonical}"') == 1,
+            f"English alternate must match canonical: {page.relative_to(root)}")
 require('name="robots" content="noindex"' in (public / "404.html").read_text(), "404 must be noindex")
+titles = [re.search(r'<title>(.*?)</title>', page.read_text()).group(1) for page in indexable_files]
+descriptions = [re.search(r'<meta name="description" content="(.*?)">', page.read_text()).group(1) for page in indexable_files]
+require(len(titles) == len(set(titles)), "Every indexable route needs a unique SEO title")
+require(len(descriptions) == len(set(descriptions)), "Every indexable route needs a unique meta description")
 
 social_image = public / "og.png"
 require(social_image.exists() and png_size(social_image) == (1200, 630), "Social preview must be a 1200×630 PNG")
@@ -64,6 +78,10 @@ for page in list((public / "people").glob("*/index.html")) + list((public / "pro
 robots = (public / "robots.txt").read_text()
 sitemap = (public / "sitemap.xml").read_text()
 require("Sitemap:" in robots and "<urlset" in sitemap, "Search discovery files are incomplete")
+atlas_pages = sorted((public / "spread").glob("*/index.html"))
+require(len(atlas_pages) == 16, "All 16 atlas chapters need crawlable pages")
+require(all('aria-label="Atlas chapters"' in page.read_text() for page in atlas_pages),
+        "Every atlas chapter needs adjacent chapter navigation")
 require((public / "llms.txt").stat().st_size > 300, "llms.txt is unexpectedly empty")
 
 mobile_source = (mobile / "App.js").read_text()

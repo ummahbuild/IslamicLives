@@ -3,6 +3,9 @@ export function chartX(year,scale,start=1900,end=2026){
  if(year<start||year>end)return null;
  return 58+510*(scale==='log'?1-Math.log1p(end-year)/Math.log1p(end-start):(year-start)/(end-start));
 }
+export function hasPlottableYear(year,start=1900,end=2026){
+ return Number.isFinite(year)&&year>=start&&year<=end;
+}
 export function populationChart(series,scale='log'){
  if(!series)return '<p class="subtle">Population context is temporarily unavailable. You can still discover a life.</p>';
  const points=series.points.map(p=>({...p,x:chartX(p.year,scale),y:226-p.value/2.2e9*175}));

@@ -11,12 +11,16 @@ assert len(people)==81,'The complete requested collection currently contains 81 
 assert requested_additions <= {p['id'] for p in people},'A requested sourced profile is missing'
 for p in people:
  assert p['uncertainty'] and p['chapters'] and p['sources'],p['id']
+ review=p.get('editorialReview',{})
+ assert review.get('status')=='structure-checked' and review.get('reviewedOn') and review.get('scholarReviewed') is False,p['id']
  if p['era']=='Qur’anic accounts':assert p['year'] is None and p['coordinates'] is None
  for field in ['dateEvidence','placeEvidence']:
   if field in p:
    e=p[field];assert e['status'] and e['text'] and e['sources']
    assert all(isinstance(i,int) and 0<=i<len(p['sources']) for i in e['sources'])
- for s in p['sources']:assert urlparse(s['url']).scheme=='https' and s['title']
+ for s in p['sources']:
+  assert urlparse(s['url']).scheme=='https' and s['title']
+  if 'quran.com/' in s['url']:assert 'Surah ' in s['title'] and __import__('re').search(r'\d{1,3}:\d',s['title']),p['id']
  for c in p['chapters']:
   assert c['text'] and c['sources']
   assert all(isinstance(i,int) and 0<=i<len(p['sources']) for i in c['sources'])

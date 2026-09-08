@@ -6,6 +6,8 @@ python3 scripts/sync_content.py
 python3 scripts/validate.py
 python3 scripts/check_internal_links.py
 python3 scripts/check_docs.py
+python3 scripts/check_performance.py
+python3 scripts/production_100.py
 python3 scripts/test_mentions.py
 node --check public/app.js
 node --test scripts/test_atlas.mjs scripts/test_population_chart.mjs

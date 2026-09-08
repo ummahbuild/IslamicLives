@@ -8,7 +8,7 @@ export function createGlobe(host,land,onSelect){
  const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});
  renderer.setPixelRatio(Math.min(devicePixelRatio,2));
  renderer.outputColorSpace=THREE.SRGBColorSpace;
- const canvas=renderer.domElement;canvas.setAttribute('aria-label','Interactive globe. Drag to rotate; use the nearby controls to zoom and the location list to select a place.');canvas.setAttribute('role','img');
+ const canvas=renderer.domElement;canvas.setAttribute('aria-label','Interactive globe. Drag to rotate; use the nearby controls to zoom and the location list to select a place.');canvas.setAttribute('aria-describedby','globe-help atlas-status');canvas.setAttribute('role','img');
  host.append(canvas);
  const root=new THREE.Group();scene.add(root);
  const textureCanvas=document.createElement('canvas');textureCanvas.width=2048;textureCanvas.height=1024;

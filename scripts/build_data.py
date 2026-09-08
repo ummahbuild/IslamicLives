@@ -3,11 +3,14 @@ import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 people=[]
+SURAH_NAMES={2:'Al-Baqarah',3:'Ali ‘Imran',5:'Al-Ma’idah',6:'Al-An‘am',7:'Al-A‘raf',9:'At-Tawbah',10:'Yunus',11:'Hud',12:'Yusuf',16:'An-Nahl',18:'Al-Kahf',19:'Maryam',20:'Ta-Ha',21:'Al-Anbiya',27:'An-Naml',28:'Al-Qasas',31:'Luqman',33:'Al-Ahzab',66:'At-Tahrim',111:'Al-Masad'}
 def source(title,url,kind='Historical scholarship',note=''):
  return dict(title=title,url=url,kind=kind,note=note,accessed='2026-09-08')
-def q(ref):return source('Qur’an '+ref,'https://quran.com/'+ref.replace(':','/'),'Qur’anic account','Verse reference; story text is an original paraphrase, not a translation.')
+def q(ref):
+ chapter=int(ref.split(':')[0]);name=SURAH_NAMES[chapter]
+ return source(f'Qur’an — Surah {name} {ref}','https://quran.com/'+ref.replace(':','/'),'Qur’anic account','Verse reference; story text is an original paraphrase, not a translation.')
 def add(id,name,arabic,category,era,date,place,role,chapters,sources,note='',year=None,coords=None):
- people.append(dict(id=id,name=name,arabic=arabic,category=category,era=era,date=date,year=year,place=place,coordinates=coords,role=role,chapters=[dict(title=t,text=b,sources=s) for t,b,s in chapters],sources=sources,uncertainty=note,reviewed='2026-09-08'))
+ people.append(dict(id=id,name=name,arabic=arabic,category=category,era=era,date=date,year=year,place=place,coordinates=coords,role=role,chapters=[dict(title=t,text=b,sources=s) for t,b,s in chapters],sources=sources,uncertainty=note,reviewed='2026-09-08',editorialReview=dict(status='structure-checked',reviewedOn='2026-09-08',scholarReviewed=False,scope='Required fields, source links, evidence labels, and uncertainty presence; not theological approval or exhaustive source review.')))
 def prophet(id,name,ar,role,a,ra,b,rb,place='Location not established'):
  add(id,name,ar,'Prophets','Qur’anic accounts','Date not established',place,role,[('In the Qur’an',a,[0]),('The account continues',b,[1])],[q(ra),q(rb)],'The Qur’an does not give a calendar date for this life. This is a scriptural account; no independently verified date or precise geographical location is asserted.')
 prophet('adam','Adam','آدم','Knowledge and repentance','The Qur’an describes Allah teaching Adam the names and the angels being commanded to bow before him. Iblis refuses.','2:30-34','After the transgression, Adam receives words from his Lord and his repentance is accepted. The account makes room for return after wrongdoing.','2:35-37')

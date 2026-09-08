@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 sources={
- 'quran':{'title':'Qur’an 3:67 — Ibrahim and submission to Allah','url':'https://quran.com/3/67','kind':'Scripture'},
+ 'quran':{'title':'Qur’an — Surah Ali ‘Imran 3:67; Ibrahim and submission to Allah','url':'https://quran.com/3/67','kind':'Scripture'},
  'birth':{'title':'The Met — The Birth of Islam','url':'https://www.metmuseum.org/essays/the-birth-of-islam','kind':'Historical scholarship'},
  'umayyad':{'title':'The Met — The Umayyad period, 661–750','url':'https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750','kind':'Historical scholarship'},
  'abbasid':{'title':'The Met — The Abbasid period, 750–1258','url':'https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258','kind':'Historical scholarship'},
