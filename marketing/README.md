@@ -32,3 +32,13 @@ Community / comms: announcement distribution, questions and amplification.
 Content editors: references, interpretive context, correction workflow.
 Engineering maintainers: technical and production claims, live demos.
 Qualified scholarly reviewers: scoped evaluations, with recorded authorization.
+
+## Expanded campaign library (October 2026)
+- [Launch narratives](LAUNCH-NARRATIVES.md): six deeper announcement approaches, press angle and headline tests.
+- [Ready-to-post social](READY-TO-POST-SOCIAL.md): X, LinkedIn, Instagram, WhatsApp, email and response bank.
+- [Educational series](EDUCATIONAL-SERIES.md): 24 episode prompts, video scripts and carousels.
+- [Partnerships and PR](PARTNERSHIPS-AND-PR.md): pitches, partner outreach, reviewer recruitment and tracking.
+- [Community launch event](COMMUNITY-LAUNCH-EVENT.md): proposed run-of-show, invite and follow-up.
+- [Release checklist](RELEASE-CHECKLIST.md): approval gates and accurate claim review.
+
+**Publishing status:** These are committed draft materials; no social posts, invitations or events have been published or scheduled through this folder. Obtain maintainer approval, contributor credit consent, a licensing decision and verification of release claims.
