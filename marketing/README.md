@@ -42,3 +42,8 @@ Qualified scholarly reviewers: scoped evaluations, with recorded authorization.
 - [Release checklist](RELEASE-CHECKLIST.md): approval gates and accurate claim review.
 
 **Publishing status:** These are committed draft materials; no social posts, invitations or events have been published or scheduled through this folder. Obtain maintainer approval, contributor credit consent, a licensing decision and verification of release claims.
+
+## Persona-specific campaigns (October 2026)
+- [Persona messaging playbook](PERSONA-MESSAGING-PLAYBOOK.md) — 12 audiences, pains, benefits, objections and CTAs.
+- [Persona campaign copy](PERSONA-CAMPAIGN-COPY.md) — platform-ready audience-tailored drafts and outreach.
+- [Persona content matrix](PERSONA-CONTENT-MATRIX.md) — 30-day distribution rotation, formats and measurements.
