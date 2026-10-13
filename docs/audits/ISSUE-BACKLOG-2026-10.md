@@ -12,7 +12,7 @@ Read repository tree, README, TODO, app audit, feature parity, security policy, 
 - Governance and scholarly evidence: [#1–#5](https://github.com/ummahbuild/IslamicLives/issues?q=is%3Aissue+is%3Aopen)
 - Content provenance and narrative depth: [#6–#12](https://github.com/ummahbuild/IslamicLives/issues?q=is%3Aissue+is%3Aopen)
 - Further source, reliability and roadmap tasks: issues #13–#20.
-- Browser, assistive tech, mobile, perf, security and release: #21–#33.
+- Browser, assistive tech, mobile, perf, security and release: #14–#20 and #28–#33. Tickets #21–#27 were closed as duplicates of #14–#20.
 - Discovery, localization and history exploration: #34–#40.
 - Newcomer and contribution infrastructure: #41–#44.
 - Eight first-timer tasks: #45–#52.
@@ -36,3 +36,6 @@ Every issue needs observed motivation, measurable acceptance criteria and a star
 4. Automated and representative real-device UX/accessibility testing.
 5. Owner-approved privacy/support/deployment and production rollback.
 6. Versioned changelog, test reports and reproducible release checks.
+
+## Triage result
+52 issues were initially created, and duplicate tickets #21–#27 were closed, leaving 45 open at the point of this audit. Eight starter issues (#45–#52) received the `good first issue` label. Scope remains provisional until a contributor reproduces or validates each claim. The repo's START_HERE guide, README and CONTRIBUTING link the backlog and first-contributor tasks.
