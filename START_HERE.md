@@ -1,6 +1,6 @@
 # Start here — your first contribution to IslamicLives
 
-Welcome! IslamicLives is a public educational repository for source-aware biographies and illustrative historical exploration. **The repository currently has no declared open-source license.** Code visibility and invitations to contribute do not grant automatic permission to reuse or redistribute the repository. Maintainers are working on a licensing decision ([issue #1](https://github.com/ummahbuild/IslamicLives/issues/1)). If license terms affect your contribution, ask in an issue first.
+Welcome! IslamicLives is a public educational repository for source-aware biographies and illustrative historical exploration. **The repository now includes an MIT license for original software**, with additional rights and third-party boundaries described in [licensing notes](docs/LICENSING.md). Existing rights verification remains open in [issue #1](https://github.com/ummahbuild/IslamicLives/issues/1). Third-party sources and translations are not automatically MIT-licensed.
 
 ## Choose your path
 
