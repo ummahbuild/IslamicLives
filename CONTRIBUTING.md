@@ -7,7 +7,7 @@
 - Setup: Node 24, npm, Python 3; clone your fork, run `npm ci`, `npm run ci`, then `npm run web`.
 - Find a small issue, comment your intended approach, use a separate branch and link your PR to the issue.
 - Documentation, testing, accessibility, and source corrections are all valuable contribution types.
-- A public repository does **not** imply an open-source license: repository licensing is still unresolved. Confirm terms before reusing content or code outside this project.
+- Original project software now has an [MIT LICENSE](LICENSE). The [licensing guide](docs/LICENSING.md) explains third-party data and rights boundaries, and [issue #1](https://github.com/ummahbuild/IslamicLives/issues/1) tracks remaining ownership verification. Only contribute work you are authorized to license; do not introduce unlicensed quotations, translations, or media.
 - Expected maintainer review timing is not guaranteed; include reproducible steps and be patient.
 - Use [bug report](.github/ISSUE_TEMPLATE/bug-report.yml), [accessibility report](.github/ISSUE_TEMPLATE/accessibility-report.yml), [content correction](.github/ISSUE_TEMPLATE/content-correction.yml), and [feature request](.github/ISSUE_TEMPLATE/feature-request.yml) templates. Report security issues privately.
 
