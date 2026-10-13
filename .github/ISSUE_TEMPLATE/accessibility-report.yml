@@ -1,0 +1,35 @@
+name: Accessibility report
+description: Report a reproducible barrier for assistive technology, keyboard, zoom, or reduced motion.
+title: "[Accessibility]: "
+labels: [accessibility]
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and assistive technology
+      placeholder: "iOS 18 + VoiceOver / Chrome desktop keyboard / 200% zoom"
+    validations:
+      required: true
+  - type: textarea
+    id: journey
+    attributes:
+      label: User task and steps to reproduce
+      description: Describe the screen, control, expected navigation and where it fails.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed barrier and impact
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Accessible expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Screenshot, recording, or redacted assistive-tech output
