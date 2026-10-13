@@ -39,3 +39,18 @@ Every issue needs observed motivation, measurable acceptance criteria and a star
 
 ## Triage result
 52 issues were initially created, and duplicate tickets #21–#27 were closed, leaving 45 open at the point of this audit. Eight starter issues (#45–#52) received the `good first issue` label. Scope remains provisional until a contributor reproduces or validates each claim. The repo's START_HERE guide, README and CONTRIBUTING link the backlog and first-contributor tasks.
+
+## Deepening pass — 2026-10-13
+- Added `LICENSE` (MIT) for original software, with third-party boundary documentation in [docs/LICENSING.md](../LICENSING.md). Ownership and third-party review remain open; do not assume corpus annotations or translations are relicensed.
+- Opened 30 distinct work items (#53–#72, #78–#87) across data provenance, license compliance, security, deterministic generation, schema integrity, link and metadata checking, native reliability, accessibility, and opt-in educational UX.
+- Closed redundant #73–#77 as duplicates of #68–#72. Prior duplicate closures #21–#27 remain closed.
+- At audit time, GitHub lists **75 open** and **12 closed** issues (including deduplication). Tickets are scoped tasks and verification hypotheses; no local runtime reproduction is implied by creating them.
+
+### Current phase sequence
+1. Settle license authority: #1 and #53–#55.
+2. Strengthen provenance/data: #58–#65.
+3. Improve safety/reliability: #56–#57, #66–#72.
+4. Build evidence-aware learning enhancements: #78–#87.
+
+### Editorial QA note
+Older campaign drafts predate the license commit and may still say no MIT license has been declared. Marketing README now flags this; update individual distribution copy before publishing.
