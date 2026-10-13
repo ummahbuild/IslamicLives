@@ -47,3 +47,6 @@ Qualified scholarly reviewers: scoped evaluations, with recorded authorization.
 - [Persona messaging playbook](PERSONA-MESSAGING-PLAYBOOK.md) — 12 audiences, pains, benefits, objections and CTAs.
 - [Persona campaign copy](PERSONA-CAMPAIGN-COPY.md) — platform-ready audience-tailored drafts and outreach.
 - [Persona content matrix](PERSONA-CONTENT-MATRIX.md) — 30-day distribution rotation, formats and measurements.
+
+## License update — October 2026
+The repository now includes an MIT LICENSE covering original software and documentation **subject to underlying ownership rights**. Do not reuse outdated claims in campaign drafts saying no license exists. Review [licensing boundaries](../docs/LICENSING.md), third-party data permissions and [ownership audit #53](https://github.com/ummahbuild/IslamicLives/issues/53) before describing the *entire repository* as freely reusable. Public store release and qualified scholarly review remain unverified.
