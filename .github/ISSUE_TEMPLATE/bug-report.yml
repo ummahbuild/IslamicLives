@@ -1,0 +1,44 @@
+name: Bug report
+description: Report reproducible incorrect behavior (not a private security vulnerability).
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Please search existing issues first. Never disclose security vulnerabilities, credentials, or private data here."
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser / OS or Expo iOS/Android version, device, and commit or deployment URL (if known).
+      placeholder: "Firefox, Android 15, main@SHA"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Exact reproduction steps
+      description: Numbered steps from a fresh session.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted screenshots, logs, and related issues
+      description: Remove personal data, secrets and access tokens.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Accessibility, source integrity, or device impact
