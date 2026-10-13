@@ -1,5 +1,7 @@
 # Islamic Lives
 
+**New here?** Start with [START_HERE.md](START_HERE.md) for setup, a five-minute first contribution path, and [beginner issues](https://github.com/ummahbuild/IslamicLives/issues?q=is%3Aissue+is%3Aopen+%22Good+first+issue%22). See the [October 2026 audit backlog](docs/audits/ISSUE-BACKLOG-2026-10.md) for prioritized work.
+
 Islamic Lives is an evidence-first web and Expo experience for exploring named people in the Qur’an, Sunnah, and Islamic history through **When → Where → Life → Story**.
 
 The current working edition contains 81 profiles, including the 25 prophets in the commonly taught list, other Qur’anic people, Companions, scholars, scientists, travellers, rulers, and builders. It is a growing research collection—not an exhaustive religious or historical database.
