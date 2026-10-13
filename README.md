@@ -1,5 +1,7 @@
 # Islamic Lives
 
+**License:** Original project software and documentation are provided under the [MIT License](LICENSE), subject to contributor ownership and third-party material boundaries explained in [licensing notes](docs/LICENSING.md). Maintainer rights audit is tracked in [issue #1](https://github.com/ummahbuild/IslamicLives/issues/1).
+
 **New here?** Start with [START_HERE.md](START_HERE.md) for setup, a five-minute first contribution path, and [beginner issues](https://github.com/ummahbuild/IslamicLives/issues?q=is%3Aissue+is%3Aopen+%22Good+first+issue%22). See the [October 2026 audit backlog](docs/audits/ISSUE-BACKLOG-2026-10.md) for prioritized work.
 
 Islamic Lives is an evidence-first web and Expo experience for exploring named people in the Qur’an, Sunnah, and Islamic history through **When → Where → Life → Story**.
@@ -112,6 +114,6 @@ Do not deploy contributor branches without maintainer approval.
 
 Contributions are welcome, especially source corrections, uncertainty improvements, accessibility fixes, tests, and bounded biographies. See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-No open-source licence has been declared yet. Until the maintainers add one, normal copyright restrictions apply even though contributions are accepted.
+Original project software and documentation are covered by [MIT](LICENSE), subject to rights and third-party exceptions in [docs/LICENSING.md](docs/LICENSING.md). Existing code ownership and upstream data permissions remain under audit.
 
 Built by [ummah.build](https://ummah.build) · [X](https://x.com/ummahbuild) · [LinkedIn](https://www.linkedin.com/company/ummah-build) · [TikTok](https://www.tiktok.com/@ummah.build) · [GitHub](https://github.com/ummahbuild) · [YouTube](https://www.youtube.com/@ummah_build)
